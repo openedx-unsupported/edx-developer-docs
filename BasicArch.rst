@@ -41,10 +41,32 @@ Enterprise Portal     **PLACE HOLDER!**
 
 How Data Flows Through Our System
 -------
-Here are the way that data flows through our system.  This diagram is not complete, here are a few important caveats:
+Here are the way that data flows through our system.  Arrows point from the source of data to the destination.  Note that the central source of truth is ``discovery``.
+
+.. image:: doc-images/xsy-with-labels.png
+
+
+**In the Diagram "Catalog Data" means...**
+
++--------+-------------------------------------------------+--------------------------------------------------------------------------------+
+| Number | Purpose                                         | Examples of Types of Data Sent                                                 |
++========+=================================================+================================================================================+
+| 1      | For discovery and marketing of learning content | associated organization, estimated work effort, learner outcomes, *etc*...     |
++--------+-------------------------------------------------+--------------------------------------------------------------------------------+
+| 2      | For purching learning content                   | price, name, image for basket page, *etc*...                                   |
++--------+-------------------------------------------------+--------------------------------------------------------------------------------+
+| 3      | For learners                                    | meta data useful to users when they are engaging with the learning content     |
++--------+-------------------------------------------------+--------------------------------------------------------------------------------+
+| 4      | For learner outcomes                            | program to course relationships, grades, course outcomes                       |
++--------+-------------------------------------------------+--------------------------------------------------------------------------------+
+
+
+This diagram is not complete, here are a few important caveats:
 
 - This is how data *should* flow and how things work generally. For example: the ``discovery`` service is supposed to be the source of truth for all learning content meta data - this is not always how it works in practice, but we are working towards that
-- Authorization is not included, it would have made the chart very hard to read **PLACE HOLDER TO EXPLANATION OF AUTH**
+- Authorization is not included, it would have made the chart very hard to read *PLACE HOLDER TO EXPLANATION OF AUTH*
 - Read Replica is also not included.  Read Replica is what we use to aggreate data from all the services, it would have made the diagram too messy so it wasn't included
-- Hyperlinks from one service to another are not included in this diagram.  For example, when a user is in the ``LMS`` or the 
+- Hyperlinks from one service to another are not included in this diagram.  For example, when a user is in the ``LMS`` or the ``marketing`` and they wish to purchase a course the ``purchase course`` button links to a basket page hosted in the ``ecommerce`` service.  These links were not included in the data flow
+
+
 
