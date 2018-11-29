@@ -5,11 +5,6 @@ owner: edx/arch-review
 nick: edx-developer-docs
 tags:
     - tools
+openedx-release: {ref: master}
 oeps:
     oep-2: True
-    oep-3:
-        state: False
-        reason: TODO - Implement for this application if appropriate
-    oep-5:
-        state: False
-        reason: TODO - Implement for this application if appropriate

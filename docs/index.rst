@@ -16,8 +16,6 @@ Contents:
    getting_started
    testing
    internationalization
-   modules
-   changelog
 
 
 Indices and tables
