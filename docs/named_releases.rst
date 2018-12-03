@@ -75,7 +75,7 @@ Ginkgo
      - Git Tag
      - Vagrant Box Files
 
-   * - Ginkgo.2
+   * - GInkgo.2
      - 2017-12-18
      - open-release/ginkgo.2
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/ginkgo-devstack-2017-07-14.box?torrent>`__
