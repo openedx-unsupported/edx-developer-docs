@@ -8,7 +8,10 @@ resources targeted for edX learners, educators, researchers, and Open edX operat
 .. toctree::
     :hidden:
 
+    Open edX Proposals <https://open-edx-proposals.readthedocs.io/en/latest/>
+    Open edX Developer's Guide <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/>
     named_releases
+    Open edX Extensions and APIs <https://open.edx.org/extending-edx>
 
 
 Architecture and Best Practices
