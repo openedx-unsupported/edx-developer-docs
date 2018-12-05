@@ -5,11 +5,17 @@ Developer Documentation
 This the landing page for documentation relevant to developers of the Open edX platform.  For other documentation
 resources targeted for edX learners, educators, researchers, and Open edX operators, see `docs.edx.org <docs.edx.org>`_.
 
+.. toctree::
+    :hidden:
+
+    named_releases
+
+
 Architecture and Best Practices
 -------------------------------
 
 .. list-table::
-  
+
    * - Open edX Technology Radar (coming...)
      - A bird's eye view of the decisions, tools and technologies that have been adopted or rejected for Open edX
        development.
@@ -26,7 +32,7 @@ Open edX Development
 --------------------
 
 .. list-table::
-  
+
    * - `Open edX Named Releases <named_releases.rst>`_
      - Information on each stable Open edX named release.
 
