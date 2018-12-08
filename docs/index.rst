@@ -36,7 +36,7 @@ Open edX Development
 
 .. list-table::
 
-   * - `Open edX Named Releases <named_releases.rst>`_
+   * - `Open edX Named Releases <named_releases.html>`_
      - Information on each stable Open edX named release.
 
    * - `Open edX Extensions and APIs <https://open.edx.org/extending-edx>`_
