@@ -30,6 +30,8 @@ Architecture and Best Practices
    * - `Open edX Developer's Guide <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/>`_
      - General guidelines for developing on various parts of the Open edX code base.
 
+   * - `Architecture and Engineering Confluence page <https://openedx.atlassian.net/wiki/spaces/AC/overview>`_
+     - Confluence page for notes, thoughts, and project-related documents on Open edX architecture and engineering.
 
 Open edX Development
 --------------------
