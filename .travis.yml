@@ -2,5 +2,8 @@ sudo: false
 language: python
 python:
   - "3.4"
+branches:
+  only:
+    - master
 install: pip install -r requirements/travis.txt
 script: make test-all
