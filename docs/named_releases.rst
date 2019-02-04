@@ -2,15 +2,16 @@
 Open edX Named Releases
 #######################
 
-The Open edX community can share knowledge and improvements more easily when most people use the same stable, consistent
-version of the Open edX codebase. To that end, edX is creating a series of "Open edX named releases", which are distinct
-from the daily deployments to edx.org and have a longer release cycle (on the order of several months between each
-release). These releases will be tested both by edX and by the Open edX community, and with each subsequent release we
-will include instructions for how to upgrade from the previous Open edX named release.
+The Open edX community can share knowledge and improvements more easily when most people use the same stable, consistent version of the Open edX codebase. To that end, edX creates "Open edX named releases", which are distinct from the daily deployments to edx.org and have a longer release cycle (on the order of six months between each release). These releases will be tested both by edX and by the Open edX community.
 
 Latest Open edX Release
 -----------------------
+
 The latest supported release line is Hawthorn_, based on code from 2018-07-03.
+
+The next release will be Ironwood_.
+
+.. _Ironwood: https://openedx.atlassian.net/wiki/spaces/COMM/pages/789839970/Ironwood
 
 All Open edX Releases
 ---------------------
@@ -19,8 +20,7 @@ All Open edX Releases
    :local:
    :depth: 1
 
-Note that the latest release (Hawthorn) is the only supported release. We currently do not have the ability to support
-more than one release at a time.
+Note that the latest release is the only supported release. We currently do not have the ability to support more than one release at a time.
 
 For documentation on the latest release, please visit http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/
 
@@ -28,13 +28,6 @@ Every release line (Dogwood, Eucalyptus, etc) has a branch that accumulates chan
 is time to make a new release in the line, we tag that branch.  When a release line is no longer supported, we might
 still add important fixes to the branch, but not make a new tagged release.  At that point, someone installing that line
 will want to install from the branch, not the tags.
-
-A note about Vagrant Box Files:
-
-* Releases before Hawthorn had Vagrant box files. Hawthorn and beyond do not.
-* Not every release needed new box files.
-* Box files the same as the previous release are marked with an asterisk \*.
-* Hashes are SHA1 hashes of the box file, not git commit hashes.
 
 Hawthorn
 ~~~~~~~~
@@ -60,7 +53,15 @@ Hawthorn
      - open-release/hawthorn.1
 
 Ginkgo
-~~~~~~~~
+~~~~~~
+
+A note about Vagrant box files:
+
+* Ginko and earlier had Vagrant box files. Hawthorn and beyond do not.
+* Not every release needed new box files.
+* Box files the same as the previous release are marked with an asterisk \*.
+* Hashes are SHA1 hashes of the box file, not git commit hashes.
+
 
 * **Code cut date:** 2017-07-06
 * **Status:** unsupported
@@ -75,7 +76,7 @@ Ginkgo
      - Git Tag
      - Vagrant Box Files
 
-   * - GInkgo.2
+   * - Ginkgo.2
      - 2017-12-18
      - open-release/ginkgo.2
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/ginkgo-devstack-2017-07-14.box?torrent>`__
@@ -195,6 +196,7 @@ Eucalyptus
 
 Dogwood
 ~~~~~~~
+
 * **Code cut date:** 2015-12-15
 * **Status:** unsupported
 * **Latest:** named-release/dogwood.rc
@@ -242,6 +244,7 @@ Dogwood
 
 Cypress
 ~~~~~~~
+
 * **Code cut date:** 2015-07-07
 * **Status:** unsupported
 * **Latest:** named-release/cypress.rc
@@ -262,7 +265,8 @@ Cypress
        * `fullstack <https://s3.amazonaws.com/edx-static/vagrant-images/cypress-fullstack.box?torrent>`__
 
 Birch
-~~~~~~~
+~~~~~
+
 * **Code cut date:** 2015-01-29
 * **Status:** unsupported
 * **Latest:** named-release/birch.rc
@@ -296,6 +300,7 @@ Birch
 
 Aspen
 ~~~~~
+
 * **Code cut date:** 2014-09-05
 * **Status:** unsupported
 * `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/aspen.html>`__
@@ -317,6 +322,7 @@ Aspen
 
 Future Releases
 ---------------
+
 Upcoming releases have wiki pages for engineers to collect information that will be needed for their release on the
 `Open edX Release Planning`_ page.
 
@@ -324,6 +330,7 @@ Upcoming releases have wiki pages for engineers to collect information that will
 
 Security Updates
 ----------------
+
 If security vulnerabilities or other serious problems (such as data loss) are discovered in the most recent Open edX
 release, edX will release a new version of that release that includes the fix. We will not make patches of any releases
 before the most recent one. We are still working on the details of how often to update Open edX releases. We will
@@ -333,6 +340,7 @@ email to security@edx.org. Please do not post the vulnerability to the public m
 
 Feedback
 --------
+
 If you find a problem in the release candidate, please report them on the mailing list (openedx-ops_ for operations 
 problem, edx-code_ for other problems), or even better, create issues in JIRA_.  We are very interested to hear from
 the community about what you value about Open edX releases. Please let us know what you would like to see in future
