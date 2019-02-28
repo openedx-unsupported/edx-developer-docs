@@ -7,11 +7,11 @@ The Open edX community can share knowledge and improvements more easily when mos
 Latest Open edX Release
 -----------------------
 
-The latest supported release line is Hawthorn_, based on code from 2018-07-03.
+The latest supported release line is Ironwood_, based on code from 2019-01-17.
 
-The next release will be Ironwood_.
+The next release will be Juniper_.
 
-.. _Ironwood: https://openedx.atlassian.net/wiki/spaces/COMM/pages/789839970/Ironwood
+.. _Juniper: https://openedx.atlassian.net/wiki/spaces/COMM/pages/940048716/Juniper
 
 All Open edX Releases
 ---------------------
@@ -24,16 +24,36 @@ Note that the latest release is the only supported release. We currently do not 
 
 For documentation on the latest release, please visit http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/
 
-Every release line (Dogwood, Eucalyptus, etc) has a branch that accumulates changes destined for that release.  When it
-is time to make a new release in the line, we tag that branch.  When a release line is no longer supported, we might
-still add important fixes to the branch, but not make a new tagged release.  At that point, someone installing that line
-will want to install from the branch, not the tags.
+Every release line (Dogwood, Eucalyptus, etc) has a branch that accumulates 
+changes destined for that release. When it is time to make a new release in 
+the line, we tag that branch. When a release line is no longer supported, 
+we might still add important fixes to the branch, but not make a new tagged 
+release. At that point, someone installing that line will want to install 
+from the branch, not the tags.
+
+Ironwood
+~~~~~~~~
+
+* **Code cut date:** 2019-01-17
+* **Status:** supported
+* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/ironwood.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Ironwood.1
+     - 2019-01-17
+     - open-release/ironwood.1
 
 Hawthorn
 ~~~~~~~~
 
 * **Code cut date:** 2018-07-03
-* **Status:** supported
+* **Status:** unsupported
 * **Note:** Devstack is now based on Docker.
 * `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html>`_
 
