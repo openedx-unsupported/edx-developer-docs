@@ -7,4 +7,6 @@ tags:
     - tools
 openedx-release: {ref: master}
 oeps:
-    oep-2: True
+    oep-2: true
+    oep-7: true
+
