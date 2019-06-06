@@ -43,6 +43,10 @@ Ironwood
      - Release Date
      - Git Tag
 
+   * - Ironwood.2
+     - 2019-06-05
+     - open-release/ironwood.2
+
    * - Ironwood.1
      - 2019-03-21
      - open-release/ironwood.1
