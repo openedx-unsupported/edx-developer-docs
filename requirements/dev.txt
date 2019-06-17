@@ -5,12 +5,21 @@
 #    make upgrade
 #
 click==7.0
-filelock==3.0.10
-pip-tools==3.1.0
-pluggy==0.8.0
-py==1.7.0
-six==1.11.0
+configparser==3.7.4
+contextlib2==0.5.5
+filelock==3.0.12
+importlib-metadata==0.18
+pathlib2==2.3.3
+pip-tools==3.8.0
+pluggy==0.12.0
+py==1.8.0
+scandir==1.10.0
+six==1.12.0
 toml==0.10.0
 tox-battery==0.5.1
-tox==3.5.3
-virtualenv==16.1.0
+tox==3.12.1
+virtualenv==16.6.1
+zipp==0.5.1
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools==41.0.1        # via tox
