@@ -27,7 +27,7 @@ Note that the latest release is the only supported release. We currently do not 
 
 For documentation on the latest release, please visit http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/
 
-Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes destined for that release (`open-release/ginkgo.master`, `open-release/hawthorn.master`, etc).  Periodically, we tag that branch (`open-release/hawthorn.1`, `open-release/hawthorn.2`, etc).  After a few releases, we might still add important fixes to the branch, but not make a new tagged release.  At that point, someone installing that line will want to install from the branch, not the tags.
+Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes destined for that release (``open-release/ginkgo.master``, ``open-release/hawthorn.master``, etc).  Periodically, we tag that branch (``open-release/hawthorn.1``, ``open-release/hawthorn.2``, etc).  After a few releases, we might still add important fixes to the branch, but not make a new tagged release.  At that point, someone installing that line will want to install from the branch, not the tags.
 
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
@@ -47,7 +47,7 @@ Ironwood
      - Git Tag
 
    * - Ironwood fixes
-     - 2019-06-26
+     - 2019-06-26+
      - open-release/ironwood.master
 
    * - Ironwood.2
