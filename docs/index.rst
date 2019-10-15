@@ -9,9 +9,10 @@ resources targeted for edX learners, educators, researchers, and Open edX operat
     :hidden:
 
     Open edX Proposals <https://open-edx-proposals.readthedocs.io/en/latest/>
-    Open edX Developer's Guide <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/>
+    developers_guide/index
     named_releases
     Open edX Extensions and APIs <https://open.edx.org/extending-edx>
+    (Legacy) Open edX Developer's Guide <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/>
 
 
 Architecture and Best Practices
@@ -27,11 +28,14 @@ Architecture and Best Practices
      - Technical decisions made by the Open edX community, in the form of best practices, architecture design,
        or development processes.
 
-   * - `Open edX Developer's Guide <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/>`_
-     - General guidelines for developing on various parts of the Open edX code base.
-
    * - `Architecture and Engineering Confluence page <https://openedx.atlassian.net/wiki/spaces/AC/overview>`_
      - Confluence page for notes, thoughts, and project-related documents on Open edX architecture and engineering.
+
+   * - `(New) Open edX Developer's Guide <developers_guide/index.html>`_
+     - General guidelines for developing on various parts of the Open edX code base.
+
+   * - `(Legacy) Open edX Developer's Guide <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/>`_
+     - General guidelines for developing on various parts of the Open edX code base.
 
 Open edX Development
 --------------------
