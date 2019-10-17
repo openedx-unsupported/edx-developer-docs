@@ -8,7 +8,7 @@ MFEs are dynamic client side rendered Javascript applications. MFE source code c
 
 To run an MFE locally you must install `node 12 <https://nodejs.org>`_ (with npm version 6.11 or higher). All MFEs offer the following commands:
 
-.. code-block::
+.. code::
 
   npm install (install dependencies)
   npm start (development server)
@@ -53,13 +53,13 @@ Example: for edx.org the Open edX @edx/frontend-component-header is overridden w
 .. code-block:: bash
 
   # Syntax: npm install <package-name>@<type>:<branded-package>
-  
+
   # npm package
   npm install @edx/frontend-component-header@npm:@edx/frontend-component-header-edx@latest
-  
+
   # git repository
   npm install @edx/frontend-component-header@git:https://github.com/edx/frontend-component-header-edx.git
-  
+
   # local folder
   npm install @edx/frontend-component-header@file:../path/to/local/module
 
