@@ -1,173 +1,9 @@
 Open edX Authentication
 =======================
 
--  .. rubric:: `Overview <#OpenedXAuthentication-Overview>`__
-      :name: overview
-
--  .. rubric:: `Defined Terms <#OpenedXAuthentication-DefinedTerms>`__
-      :name: defined-terms
-
-   -  .. rubric:: `Authentication
-         (AuthN) <#OpenedXAuthentication-Authentication(Au>`__
-         :name: authentication-authn
-
-   -  .. rubric:: `Authorization
-         (AuthZ) <#OpenedXAuthentication-Authorization(Aut>`__
-         :name: authorization-authz
-
-   -  .. rubric:: `Independently Deployable Application
-         (IDA) <#OpenedXAuthentication-IndependentlyDepl>`__
-         :name: independently-deployable-application-ida
-
-   -  .. rubric:: `OAuth 2.0
-         (OAuth2) <#OpenedXAuthentication-OAuth2.0(OAuth2)>`__
-         :name: oauth-2.0-oauth2
-
-   -  .. rubric:: `OpenID Connect
-         (OIDC) <#OpenedXAuthentication-OpenIDConnect(OID>`__
-         :name: openid-connect-oidc
-
-   -  .. rubric:: `JSON Web Token
-         (JWT) <#OpenedXAuthentication-JSONWebToken(JWT)>`__
-         :name: json-web-token-jwt
-
-   -  .. rubric:: `Identity Provider
-         (idP) <#OpenedXAuthentication-IdentityProvider(>`__
-         :name: identity-provider-idp
-
--  .. rubric:: `Current Auth
-      Situation <#OpenedXAuthentication-CurrentAuthSituat>`__
-      :name: current-auth-situation
-
-   -  .. rubric:: `User Auth
-         Methods <#OpenedXAuthentication-UserAuthMethods>`__
-         :name: user-auth-methods
-
-      -  .. rubric:: `OAuth 2.0 & OpenID
-            Connect <#OpenedXAuthentication-OAuth2.0&OpenIDCo>`__
-            :name: oauth-2.0-openid-connect
-
-         -  .. rubric:: `Why is OIDC being
-               deprecated? <#OpenedXAuthentication-WhyisOIDCbeingdep>`__
-               :name: why-is-oidc-being-deprecated
-
-         -  .. rubric:: `What uses OIDC at
-               present? <#OpenedXAuthentication-WhatusesOIDCatpre>`__
-               :name: what-uses-oidc-at-present
-
-         -  .. rubric:: `Discovery <#OpenedXAuthentication-Discovery>`__
-               :name: discovery
-
-         -  .. rubric:: `ECommerce <#OpenedXAuthentication-ECommerce>`__
-               :name: ecommerce
-
-         -  .. rubric:: `Credentials <#OpenedXAuthentication-Credentials>`__
-               :name: credentials
-
-         -  .. rubric:: `Insights <#OpenedXAuthentication-Insights>`__
-               :name: insights
-
-      -  .. rubric:: `OAuth 2.0 & Bearer
-            Token <#OpenedXAuthentication-OAuth2.0&BearerTo>`__
-            :name: oauth-2.0-bearer-token
-
-      -  .. rubric:: `OAuth 2.0 &
-            JWT <#OpenedXAuthentication-OAuth2.0&JWT>`__
-            :name: oauth-2.0-jwt
-
-         -  .. rubric:: `Restricted Client
-               Applications <#OpenedXAuthentication-RestrictedClientA>`__
-               :name: restricted-client-applications
-
-            -  .. rubric:: `Details <#OpenedXAuthentication-Details>`__
-                  :name: details
-
-            -  .. rubric:: `Planned
-                  Deprecation <#OpenedXAuthentication-PlannedDeprecatio>`__
-                  :name: planned-deprecation
-
-   -  .. rubric:: `Other LMS
-         Auth <#OpenedXAuthentication-OtherLMSAuth>`__
-         :name: other-lms-auth
-
-      -  .. rubric:: `LMS as OpenID
-            idP <#OpenedXAuthentication-LMSasOpenIDidP>`__
-            :name: lms-as-openid-idp
-
-      -  .. rubric:: `Social (and Other)
-            Authentication <#OpenedXAuthentication-Social(andOther)A>`__
-            :name: social-and-other-authentication
-
-   -  .. rubric:: `Server-to-Server
-         Auth <#OpenedXAuthentication-Server-to-ServerA>`__
-         :name: server-to-server-auth
-
-      -  .. rubric:: `Client Credentials
-            Grant <#OpenedXAuthentication-ClientCredentials>`__
-            :name: client-credentials-grant
-
-   -  .. rubric:: `Relevant
-         Code <#OpenedXAuthentication-RelevantCode>`__
-         :name: relevant-code
-
-      -  .. rubric:: `Repositories <#OpenedXAuthentication-Repositories>`__
-            :name: repositories
-
-         -  .. rubric:: `django-oauth2-provider
-               (DOP) <#OpenedXAuthentication-django-oauth2-pro>`__
-               :name: django-oauth2-provider-dop
-
-         -  .. rubric:: `edx-oauth2-provider <#OpenedXAuthentication-edx-oauth2-provid>`__
-               :name: edx-oauth2-provider
-
-         -  .. rubric:: `django-oauth2-toolkit
-               (DOT) <#OpenedXAuthentication-django-oauth2-too>`__
-               :name: django-oauth2-toolkit-dot
-
-         -  .. rubric:: `auth-backends <#OpenedXAuthentication-auth-backends>`__
-               :name: auth-backends
-
-         -  .. rubric:: `rest-framework-jwt <#OpenedXAuthentication-rest-framework-jw>`__
-               :name: rest-framework-jwt
-
-         -  .. rubric:: `python-social-auth <#OpenedXAuthentication-python-social-aut>`__
-               :name: python-social-auth
-
-         -  .. rubric:: `django-oauth-plus <#OpenedXAuthentication-django-oauth-plus>`__
-               :name: django-oauth-plus
-
-         -  .. rubric:: `django-openid-auth <#OpenedXAuthentication-django-openid-aut>`__
-               :name: django-openid-auth
-
-      -  .. rubric:: `Edx-platform
-            Code <#OpenedXAuthentication-Edx-platformCode>`__
-            :name: edx-platform-code
-
-         -  .. rubric:: `openedx.core.djangoapps.oauth_dispatch <#OpenedXAuthentication-openedx.core.djan>`__
-               :name: openedx.core.djangoapps.oauth_dispatch
-
-         -  .. rubric:: `openedx.core.djangoapps.external_auth <#OpenedXAuthentication-openedx.core.djan>`__
-               :name: openedx.core.djangoapps.external_auth
-
-         -  .. rubric:: `common.djangoapps.third_party_auth <#OpenedXAuthentication-common.djangoapps>`__
-               :name: common.djangoapps.third_party_auth
-
--  .. rubric:: `Desired Future Auth
-      Situation <#OpenedXAuthentication-DesiredFutureAuth>`__
-      :name: desired-future-auth-situation
-
-   -  .. rubric:: `Scopes <#OpenedXAuthentication-Scopes>`__
-         :name: scopes
-
--  .. rubric:: `More
-      Information <#OpenedXAuthentication-MoreInformation>`__
-      :name: more-information
-
-   -  .. rubric:: `Some Relevant
-         Tickets <#OpenedXAuthentication-SomeRelevantTicke>`__
-         :name: some-relevant-tickets
-
-.. _overview-1:
+.. contents::
+   :local:
+   :depth: 3
 
 Overview
 ========
@@ -175,20 +11,14 @@ Overview
 This document details the methods used to authenticate users in edX
 applications.
 
-.. _defined-terms-1:
-
 Defined Terms
 =============
-
-.. _authentication-authn-1:
 
 Authentication (AuthN)
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Authentication is the verification of the identity of a user, which
 typically happens at a “login” application point.
-
-.. _authorization-authz-1:
 
 Authorization (AuthZ)
 ~~~~~~~~~~~~~~~~~~~~~
@@ -199,16 +29,12 @@ application to be authorized to perform operations on their behalf
 without being logged in/authenticated - indeed that’s the basis of
 OAuth.
 
-.. _independently-deployable-application-ida-1:
-
 Independently Deployable Application (IDA)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 An internal edX definition used to describe separate applications that
 make up a complete OpenEdx installation. Examples of IDAs are:
 edx-platform/edxapp, Insights, ECommerce, Credentials, etc,
-
-.. _oauth-2.0-oauth2-1:
 
 OAuth 2.0 (OAuth2)
 ~~~~~~~~~~~~~~~~~~
@@ -220,8 +46,6 @@ https://aaronparecki.com/oauth-2-simplified/
 For edX, the LMS acts as authorization server and other IDAs use the LMS
 to automatically login IDA users.
 
-.. _openid-connect-oidc-1:
-
 OpenID Connect (OIDC)
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -232,8 +56,6 @@ OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0
 End-User based on the authentication performed by an Authorization
 Server, as well as to obtain basic profile information about the
 End-User in an interoperable and REST-like manner.
-
-.. _json-web-token-jwt-1:
 
 JSON Web Token (JWT)
 ~~~~~~~~~~~~~~~~~~~~
@@ -249,8 +71,6 @@ the HMAC algorithm) or a public/private key pair using RSA.
 
 For edX, JWT (with OAuth2) provides an alternative way to OpenID Connect
 (with OAuth2) to authenticate a user.
-
-.. _identity-provider-idp-1:
 
 Identity Provider (idP)
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -271,15 +91,11 @@ For edX, the LMS acts as an idP for all other surrounding IDAs,
 providing information about the identity of the user to the other IDAs
 for account creation purposes.
 
-.. _current-auth-situation-1:
-
 Current Auth Situation
 ======================
 
 What IDAs use what authentication method? What authentication methods
 are supported?
-
-.. _user-auth-methods-1:
 
 User Auth Methods
 ~~~~~~~~~~~~~~~~~
@@ -302,15 +118,11 @@ instructions:
 `Who's in the list of approved edx-platform LMS OAuth2
 clients? <file:////wiki/spaces/PLAT/pages/162743745>`__
 
-.. _oauth-2.0-openid-connect-1:
-
 OAuth 2.0 & OpenID Connect
 ---------------------------
 
 OAuth2/OIDC is deprecated - but it is the most-used method of user
 authentication at present.
-
-.. _why-is-oidc-being-deprecated-1:
 
 Why is OIDC being deprecated?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -321,8 +133,6 @@ platform needs to use the supported django-oauth-toolkit (DOT) module in
 the future. But DOT does \ **not** support OIDC. So a choice had to be
 made & the architecture team decided that since OAuth2/JWT meets our
 needs and is supported by DOT, we'll use OAuth2/JWT instead.
-
-.. _what-uses-oidc-at-present-1:
 
 What uses OIDC at present?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -343,35 +153,25 @@ you’ll find the ordered authentication methods. The
 auth_backends.backends.EdXOpenIdConnect backend is the OAuth2/OIDC
 backend. Below are links to each IDA’s settings:
 
-.. _discovery-1:
-
 Discovery
 ^^^^^^^^^
 
 https://github.com/edx/course-discovery/blob/19b31827a2417ddd8d3c7cb8b2817ec12a0cd60c/course_discovery/settings/base.py#L239-L243
-
-.. _ecommerce-1:
 
 ECommerce
 ^^^^^^^^^
 
 https://github.com/edx/ecommerce/blob/422c862d79822d3be09cce23f902e3eaa485c975/ecommerce/settings/base.py#L438
 
-.. _credentials-1:
-
 Credentials
 ^^^^^^^^^^^
 
 https://github.com/edx/credentials/blob/f890e7971789e44d6ecde21c5b786ebcc7c29d94/credentials/settings/base.py#L193-L196
 
-.. _insights-1:
-
 Insights
 ^^^^^^^^
 
 https://github.com/edx/edx-analytics-dashboard/blob/4144ed83f7e766fef6eb38d077f68bfd5c37dd84/analytics_dashboard/settings/base.py#L332-L336
-
-.. _oauth-2.0-bearer-token-1:
 
 OAuth 2.0 & Bearer Token
 -------------------------
@@ -384,8 +184,6 @@ and either service or reject the request, based on the token validity.
 The communications between the browser, LMS, and IDA must all use TLS in
 order to keep the token secure, as anyone with the token can make a
 restricted IDA request.
-
-.. _oauth-2.0-jwt-1:
 
 OAuth 2.0 & JWT
 ----------------
@@ -407,8 +205,6 @@ public key would be discovered by clients - the method is detailed in
 this
 `document <https://docs.google.com/document/d/1uqFrFZoZE68et8HIBb-fbp1jAlfpbalvpDRVjjJkNkM/edit>`__.
 
-.. _restricted-client-applications-1:
-
 Restricted Client Applications
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -419,8 +215,6 @@ provide identity details about a particular LMS user, such as username
 and email address. Other systems use this restricted client
 functionality in order to verify on their system that one of their users
 actually is the edX user which they claim to be.
-
-.. _details-1:
 
 Details
 '''''''
@@ -444,12 +238,10 @@ application_id=177 limit 1;
 
 +----------+--------------------------------+----------------------------+---------------+----------------+---------+
 
-\| 14237520 \| VlCdo3xXwdDTfkMzz1BlWQdiniIbRE \| 1970-01-01
-00:00:00.000000 \| profile email \| 177 \| 115436 \|
+\| 123456 \| VXasdfasdffkMzz1BlWQdiniIbRE \| 1970-01-01
+00:00:00.000000 \| profile email \| 111 \| 33333 \|
 
 +----------+--------------------------------+----------------------------+---------------+----------------+---------+
-
-.. _planned-deprecation-1:
 
 Planned Deprecation
 '''''''''''''''''''
@@ -460,12 +252,8 @@ implementation of the "Identity Scope" which a user allows an external
 system access to identity details without providing any other
 permissions, or scopes.
 
-.. _other-lms-auth-1:
-
 Other LMS Auth
 ~~~~~~~~~~~~~~~~~~~~~~
-
-.. _lms-as-openid-idp-1:
 
 LMS as OpenID idP
 ------------------
@@ -476,8 +264,6 @@ just explicitly added clients (like edX IDAs). But - we’re actively
 attempting to deprecate and remove this functionality. A single legacy
 course (CS50x) used to generate around 99% of the OpenID traffic - but
 has since switched to using standard OAuth JWT auth.
-
-.. _social-and-other-authentication-1:
 
 Social (and Other) Authentication
 ----------------------------------
@@ -490,8 +276,6 @@ or link your edX identity to another network identity. However, once the
 identity link is established and an edX account is created, the LMS
 still functions as usual as the idP for all satellite IDAs - the auth
 method remains the same.
-
-.. _server-to-server-auth-1:
 
 Server-to-Server Auth
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -515,8 +299,6 @@ grant <https://tools.ietf.org/html/rfc6749#section-4.4>`__. The
 ecommerce-worker would be granted the permissions of a user allowed to
 enroll any other user in any course. edX plans to move to this type of
 authentication for this server-to-server interaction in the near term.
-
-.. _client-credentials-grant-1:
 
 Client Credentials Grant
 -------------------------
@@ -567,12 +349,8 @@ client credentials grant would work:
    -  In future, scopes are checked to ensure that the operation is
       allowed.
 
-.. _relevant-code-1:
-
 Relevant Code
 ~~~~~~~~~~~~~~~~
-
-.. _repositories-1:
 
 Repositories
 -------------
@@ -602,8 +380,6 @@ the changes in the fork:
 
 https://github.com/caffeinehit/django-oauth2-provider/compare/master...edx:edx
 
-.. _edx-oauth2-provider-1:
-
 edx-oauth2-provider
 ^^^^^^^^^^^^^^^^^^^
 
@@ -631,8 +407,6 @@ See
 for more details - work was completed to change the import name to
 edx_oauth2_provider.
 
-.. _django-oauth2-toolkit-dot-1:
-
 django-oauth2-toolkit (DOT)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -655,8 +429,6 @@ tokens. To continue using OpenID Connect, OIDC functionality would need
 to be implemented for this module and we’ve currently decided not to add
 this functionality.
 
-.. _auth-backends-1:
-
 auth-backends
 ^^^^^^^^^^^^^
 
@@ -676,8 +448,6 @@ auth-backends
 This module provides custom Django authentication backends for clients
 to use when using the LMS as an idP.
 
-.. _rest-framework-jwt-1:
-
 rest-framework-jwt
 ^^^^^^^^^^^^^^^^^^
 .. list-table::
@@ -695,8 +465,6 @@ rest-framework-jwt
 
 The module from which we use JSONWebTokenAuthentication, but extend it
 with our own implementation.
-
-.. _python-social-auth-1:
 
 python-social-auth
 ^^^^^^^^^^^^^^^^^^
@@ -719,8 +487,6 @@ providers/services, such as Facebook, Twitter, Google, etc. The good
 news: this module was updated to the latest split-module version in
 `this pull request <https://github.com/edx/edx-platform/pull/15135>`__.
 
-.. _django-oauth-plus-1:
-
 django-oauth-plus
 ^^^^^^^^^^^^^^^^^
 
@@ -742,8 +508,6 @@ otherwise unused in the edx-platform codebase. However, it's
 unfortunately in the INSTALLED_APPS of the LMS because of a model
 foreign key dependency with drf-oauth.
 
-.. _django-openid-auth-1:
-
 django-openid-auth
 ^^^^^^^^^^^^^^^^^^
 
@@ -763,12 +527,8 @@ django-openid-auth
 This module provides support for Open edX as an OpenID idP. The plan is
 to deprecate/remove this functionality, as detailed above.
 
-.. _edx-platform-code-1:
-
 Edx-platform Code
 ------------------
-
-.. _openedx.core.djangoapps.oauth_dispatch-1:
 
 openedx.core.djangoapps.oauth_dispatch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -785,23 +545,17 @@ the access token. Implements the "restricted client" functionality which
 returns an expired JWT for the purpose of identity details only - see
 RestrictedApplication.
 
-.. _openedx.core.djangoapps.external_auth-1:
-
 openedx.core.djangoapps.external_auth
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Code supporting the LMS’s role as an OpenID provider, as well as login
 methods for CAS, Shibboleth, OpenID, and MIT SSL.
 
-.. _common.djangoapps.third_party_auth-1:
-
 common.djangoapps.third_party_auth
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Code handling LTI/SAML authentication as well as python-social-auth
 login, such as Google, Facebook, etc.
-
-.. _desired-future-auth-situation-1:
 
 Desired Future Auth Situation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -832,13 +586,9 @@ Other consolidation steps to take:
 
    -  Then the OpenID functionality would be removed.
 
-
-
 -  Deprecate/remove the api key header server-to-server functionality.
 
    -  Shift the users to use OAuth2's client credentials grant instead.
-
-.. _scopes-1:
 
 Scopes
 ------
@@ -852,8 +602,6 @@ https://api.slack.com/docs/oauth-scopes
 
 https://developers.google.com/identity/protocols/googlescopes
 
-.. _more-information-1:
-
 More Information
 ~~~~~~~~~~~~~~~~
 
@@ -864,8 +612,6 @@ Open edX page with details on how to obtain a Bearer token **or** JWT.
 https://nordicapis.com/api-security-oauth-openid-connect-depth/ - A page
 discussing the differences/relationship between OAuth2 and OpenID
 Connect.
-
-.. _some-relevant-tickets-1:
 
 Some Relevant Tickets
 ----------------------
