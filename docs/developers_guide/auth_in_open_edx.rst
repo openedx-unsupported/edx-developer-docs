@@ -282,7 +282,7 @@ are supported?
 .. _user-auth-methods-1:
 
 User Auth Methods
------------------
+~~~~~~~~~~~~~~~~~
 
 There are several authentication methods used by OpenEdx IDAs. The
 methods are all built on top of OAuth 2.0 - but the typical
@@ -305,7 +305,7 @@ clients? <file:////wiki/spaces/PLAT/pages/162743745>`__
 .. _oauth-2.0-openid-connect-1:
 
 OAuth 2.0 & OpenID Connect
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 OAuth2/OIDC is deprecated - but it is the most-used method of user
 authentication at present.
@@ -374,7 +374,7 @@ https://github.com/edx/edx-analytics-dashboard/blob/4144ed83f7e766fef6eb38d077f6
 .. _oauth-2.0-bearer-token-1:
 
 OAuth 2.0 & Bearer Token
-~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 Currently, only the mobile applications (iOS and Android) use `this
 method <https://tools.ietf.org/html/rfc6750>`__. In this method, the LMS
@@ -388,7 +388,7 @@ restricted IDA request.
 .. _oauth-2.0-jwt-1:
 
 OAuth 2.0 & JWT
-~~~~~~~~~~~~~~~
+----------------
 
 This auth method is the supported and recommended one. It uses JSON web
 tokens (JWTs) on top of OAuth 2.0 to provide authentication - and is a
@@ -463,12 +463,12 @@ permissions, or scopes.
 .. _other-lms-auth-1:
 
 Other LMS Auth
---------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. _lms-as-openid-idp-1:
 
 LMS as OpenID idP
-~~~~~~~~~~~~~~~~~
+------------------
 
 The LMS also acts as an OpenID idP. OpenID is different from OAuth2 in
 several ways but one key difference is that anyone can use the idP - not
@@ -480,7 +480,7 @@ has since switched to using standard OAuth JWT auth.
 .. _social-and-other-authentication-1:
 
 Social (and Other) Authentication
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------
 
 Open edX platform also supports several social authentication methods,
 such as Google, Facebook, and LinkedIn - along with other
@@ -494,7 +494,7 @@ method remains the same.
 .. _server-to-server-auth-1:
 
 Server-to-Server Auth
----------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 In one particular case, the ecommerce-worker application needs the
 permissions to be able to enroll any user in any course **and** to
@@ -519,7 +519,7 @@ authentication for this server-to-server interaction in the near term.
 .. _client-credentials-grant-1:
 
 Client Credentials Grant
-~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 Suppose you had a Jenkins job that needed to perform server-to-server
 authentication with the LMS and other platform services. Here's how the
@@ -570,26 +570,30 @@ client credentials grant would work:
 .. _relevant-code-1:
 
 Relevant Code
--------------
+~~~~~~~~~~~~~~~~
 
 .. _repositories-1:
 
 Repositories
-~~~~~~~~~~~~
+-------------
 
 .. _django-oauth2-provider-dop-1:
 
 django-oauth2-provider (DOP)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-======================= =============================================
-GitHub URL              https://github.com/edx/django-oauth2-provider
-======================= =============================================
-Module Name             edx-django-oauth2-provider
-Python import name      provider
-Django 1.11 compatible? Yes
-Python3 compatible?     No
-======================= =============================================
+.. list-table::
+
+    * - GitHub URL
+      - https://github.com/edx/django-oauth2-provider
+    * - Module Name
+      - edx-django-oauth2-provider
+    * - Python import name
+      - provider
+    * - Django 1.11 compatible?
+      - Yes
+    * - Python3 compatible?
+      - No
 
  DOP (pronounced “dope”) is the deprecated module used for base
 OAuth2/OIDC authentication. edX forked the Python module due to
@@ -603,14 +607,18 @@ https://github.com/caffeinehit/django-oauth2-provider/compare/master...edx:edx
 edx-oauth2-provider
 ^^^^^^^^^^^^^^^^^^^
 
-======================= ==========================================
-GitHub URL              https://github.com/edx/edx-oauth2-provider
-======================= ==========================================
-Module Name             edx-oauth2-provider
-Python import name      edx_oauth2_provider
-Django 1.11 compatible? Yes
-Python3 compatible?     No
-======================= ==========================================
+.. list-table::
+
+    * - GitHub URL
+      - https://github.com/edx/edx-oauth2-provider
+    * - Module Name
+      - edx-oauth2-provider
+    * - Python import name
+      - edx_oauth2_provider
+    * - Django 1.11 compatible?
+      - Yes
+    * - Python3 compatible?
+      - No
 
 This edX-authored companion module to DOP can be thought of as a DOP
 wrapper, providing specific edX-required functionality. This module and
@@ -626,16 +634,20 @@ edx_oauth2_provider.
 .. _django-oauth2-toolkit-dot-1:
 
 django-oauth2-toolkit (DOT)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-======================= ===============================================
-GitHub URL              https://github.com/evonove/django-oauth-toolkit
-======================= ===============================================
-Module Name             django-oauth-toolkit
-Python import name      oauth2_provider
-Django 1.11 compatible? Yes
-Python3 compatible?     Yes
-======================= ===============================================
+.. list-table::
+
+    * - GitHub URL
+      - https://github.com/evonove/django-oauth-toolkit
+    * - Module Name
+      - django-oauth-toolkit
+    * - Python import name
+      - oauth2_provider
+    * - Django 1.11 compatible?
+      - Yes
+    * - Python3 compatible?
+      - Yes
 
 This module is the recommended modern implementation of OAuth2 and it
 supports JWTs. The module does not support OpenID Connect access/ID
@@ -648,14 +660,18 @@ this functionality.
 auth-backends
 ^^^^^^^^^^^^^
 
-======================= ====================================
-GitHub URL              https://github.com/edx/auth-backends
-======================= ====================================
-Module Name             edx-auth-backends
-Python import name      auth_backends
-Django 1.11 compatible? Yes
-Python3 compatible?     Yes
-======================= ====================================
+.. list-table::
+
+    * - GitHub URL
+      - https://github.com/edx/auth-backends
+    * - Module Name
+      - edx-auth-backends
+    * - Python import name
+      - auth_backends
+    * - Django 1.11 compatible?
+      - Yes
+    * - Python3 compatible?
+      - Yes
 
 This module provides custom Django authentication backends for clients
 to use when using the LMS as an idP.
@@ -664,18 +680,18 @@ to use when using the LMS as an idP.
 
 rest-framework-jwt
 ^^^^^^^^^^^^^^^^^^
+.. list-table::
 
-=======================
-=====================================================
-GitHub URL              https://github.com/GetBlimp/django-rest-framework-jwt
-=======================
-=====================================================
-Module Name             django-rest-framework-jwt
-Python import name      rest_framework_jwt
-Django 1.11 compatible? Yes
-Python3 compatible?     Yes
-=======================
-=====================================================
+    * - GitHub URL
+      - https://github.com/GetBlimp/django-rest-framework-jwt
+    * - Module Name
+      - django-rest-framework-jwt
+    * - Python import name
+      - rest_framework_jwt
+    * - Django 1.11 compatible?
+      - Yes
+    * - Python3 compatible?
+      - Yes
 
 The module from which we use JSONWebTokenAuthentication, but extend it
 with our own implementation.
@@ -685,14 +701,18 @@ with our own implementation.
 python-social-auth
 ^^^^^^^^^^^^^^^^^^
 
-======================= ==========================================
-GitHub URL              https://github.com/omab/python-social-auth
-======================= ==========================================
-Module Name             python-social-auth
-Python import name      social
-Django 1.11 compatible? Yes
-Python3 compatible?     Yes
-======================= ==========================================
+.. list-table::
+
+    * - GitHub URL
+      - https://github.com/omab/python-social-auth
+    * - Module Name
+      - python-social-auth
+    * - Python import name
+      - social
+    * - Django 1.11 compatible?
+      - Yes
+    * - Python3 compatible?
+      - Yes
 
 This module provides support for integrating login with third-party
 providers/services, such as Facebook, Twitter, Google, etc. The good
@@ -704,17 +724,18 @@ news: this module was updated to the latest split-module version in
 django-oauth-plus
 ^^^^^^^^^^^^^^^^^
 
-=======================
-================================================================
-GitHub URL              https://bitbucket.org/david/django-oauth-plus
-=======================
-================================================================
-Module Name             django-oauth-plus
-Python import name      oauth_provider
-Django 1.11 compatible? No - latest tagged is 1.9 compatible & master is 1.10 compatible
-Python3 compatible?     No
-=======================
-================================================================
+.. list-table::
+
+    * - GitHub URL
+      - https://bitbucket.org/david/django-oauth-plus
+    * - Module Name
+      - django-oauth-plus
+    * - Python import name
+      - oauth_provider
+    * - Django 1.11 compatible?
+      - No - latest tagged is 1.9 compatible & master is 1.10 compatible
+    * - Python3 compatible?
+      - No
 
 This module is a requirement of django-rest-framework-oauth but is
 otherwise unused in the edx-platform codebase. However, it's
@@ -726,17 +747,18 @@ foreign key dependency with drf-oauth.
 django-openid-auth
 ^^^^^^^^^^^^^^^^^^
 
-=======================
-========================================================
-GitHub URL              https://github.com/edx/django-openid-auth
-=======================
-========================================================
-Module Name             django-openid-auth
-Python import name      django_openid_auth
-Django 1.11 compatible? Yes - converted during last edx-platform Django upgrade.
-Python3 compatible?     edX fork is not - upstream is.
-=======================
-========================================================
+.. list-table::
+
+    * - GitHub URL
+      - https://github.com/edx/django-openid-auth
+    * - Module Namee
+      - django-openid-auth
+    * - Python import name
+      - django_openid_auth
+    * - Django 1.11 compatible?
+      - Yes - converted during last edx-platform Django upgrade.
+    * - Python3 compatible?
+      - edX fork is not - upstream is.
 
 This module provides support for Open edX as an OpenID idP. The plan is
 to deprecate/remove this functionality, as detailed above.
@@ -744,7 +766,7 @@ to deprecate/remove this functionality, as detailed above.
 .. _edx-platform-code-1:
 
 Edx-platform Code
-~~~~~~~~~~~~~~~~~
+------------------
 
 .. _openedx.core.djangoapps.oauth_dispatch-1:
 
@@ -782,7 +804,7 @@ login, such as Google, Facebook, etc.
 .. _desired-future-auth-situation-1:
 
 Desired Future Auth Situation
-=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 An “Update Authentication” epic has been created to address the desired
 changes:
@@ -810,6 +832,8 @@ Other consolidation steps to take:
 
    -  Then the OpenID functionality would be removed.
 
+
+
 -  Deprecate/remove the api key header server-to-server functionality.
 
    -  Shift the users to use OAuth2's client credentials grant instead.
@@ -831,11 +855,11 @@ https://developers.google.com/identity/protocols/googlescopes
 .. _more-information-1:
 
 More Information
-================
+~~~~~~~~~~~~~~~~
 
 `OAuth
 2.0 <file:////wiki/spaces/ArchiveEng/pages/80249207/OAuth+2.0>`__ - an
-Open edX page with details on how to obtain a Bearer token **or **\ JWT.
+Open edX page with details on how to obtain a Bearer token **or** JWT.
 
 https://nordicapis.com/api-security-oauth-openid-connect-depth/ - A page
 discussing the differences/relationship between OAuth2 and OpenID
@@ -844,11 +868,9 @@ Connect.
 .. _some-relevant-tickets-1:
 
 Some Relevant Tickets
----------------------
-
+----------------------
 LEARNER-701
 
 `PLAT-1660 <https://openedx.atlassian.net/browse/PLAT-1660>`__
 
 .. |image0| image:: media/image1.jpeg
-
