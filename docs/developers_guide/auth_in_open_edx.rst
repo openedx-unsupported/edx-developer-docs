@@ -1,5 +1,6 @@
-Open edX Authentication
-=======================
+*****************************************
+Open edX Authentication and Authorization
+*****************************************
 
 .. contents::
    :local:
