@@ -10,11 +10,12 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 -----------------------
 
-The latest supported release line is Ironwood_, based on code from 2019-01-17.
+The latest supported release line is Juniper_, based on code from 2020-05-27.
 
-The next release will be Juniper_.
+The next release will be Koa__.
 
-.. _Juniper: https://openedx.atlassian.net/wiki/spaces/COMM/pages/940048716/Juniper
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/1398113104/Koa
+
 
 All Open edX Releases
 ---------------------
@@ -32,11 +33,29 @@ Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
 
+Juniper
+~~~~~~~
+
+* **Code cut date:** 2020-05-27
+* **Status:** supported
+* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/juniper.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Juniper.1
+     - 2020-06-09
+     - open-release/juniper.1
+
 Ironwood
 ~~~~~~~~
 
 * **Code cut date:** 2019-01-17
-* **Status:** supported
+* **Status:** unsupported
 * `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/ironwood.html>`__
 
 .. list-table::
