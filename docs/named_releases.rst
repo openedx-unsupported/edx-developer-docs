@@ -47,6 +47,10 @@ Juniper
      - Release Date
      - Git Tag
 
+   * - Juniper.3
+     - 2020-08-25
+     - open-release/juniper.3
+
    * - Juniper.2
      - 2020-07-13
      - open-release/juniper.2
