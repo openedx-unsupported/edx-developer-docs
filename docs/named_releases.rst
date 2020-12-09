@@ -10,11 +10,11 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 -----------------------
 
-The latest supported release line is Juniper_, based on code from 2020-05-27.
+The latest supported release line is Koa_, based on code from 2020-11-12.
 
-The next release will be Koa__.
+The next release will be Lilac__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/1398113104/Koa
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/2023915819/Lilac
 
 
 All Open edX Releases
@@ -33,11 +33,29 @@ Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
 
+Koa
+~~~
+
+* **Code cut date:** 2020-11-12
+* **Status:** supported
+* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/koa.html>`_
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Koa.1
+     - 2020-12-09
+     - open-release/koa.1
+
 Juniper
 ~~~~~~~
 
 * **Code cut date:** 2020-05-27
-* **Status:** supported
+* **Status:** unsupported
 * `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/juniper.html>`_
 
 .. list-table::
