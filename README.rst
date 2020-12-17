@@ -49,8 +49,8 @@ refer to this `list of resources`_ if you need any assistance.
 .. _list of resources: https://open.edx.org/getting-help
 
 
-.. |travis-badge| image:: https://travis-ci.org/edx/edx-developer-docs.svg?branch=master
-    :target: https://travis-ci.org/edx/edx-developer-docs
+.. |travis-badge| image:: https://travis-ci.com/edx/edx-developer-docs.svg?branch=master
+    :target: https://travis-ci.com/edx/edx-developer-docs
     :alt: Travis
 
 .. |doc-badge| image:: https://readthedocs.org/projects/edx-developer-docs/badge/?version=latest
