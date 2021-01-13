@@ -1,6 +1,56 @@
-#######################
-Developer Documentation
-#######################
+####################################
+Open edX Developer Documentation Hub
+####################################
+
+Welcome new and returning Open edX developers! 
+
+This is the central repository for documentation that will help you work with Open edX code. 
+
+New to edX? Start here.
+-----------------------
+
+  :doc: `Our mission </new_to_edx/mission>` 
+  :doc: `What our systems do </new_to_edx/what_our_systems_do>`
+  :doc: `How we represent real-world data </new_to_edx/data_model>`
+
+
+.. toctree::
+   :maxdepth: 4
+   :caption: New to edX?
+
+   /new_to_edx/mission
+   /new_to_edx/what_our_systems_do
+   /new_to_edx/data_model
+
+
+Extending the core Open edX platform
+------------------------------------
+
+  :doc: `What can you extend? </extending/what_can_you_extend>` 
+  :doc: `System requirements for development devices </all_development/system_requirements>` 
+  :doc: `Setting up your development environment </all_development/setting_up_dev_envt>`
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Extending the core platform
+
+   /extending/what_can_you_extend
+   /all_development/system_requirements
+   /all_development/setting_up_dev_envt
+  
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+
+
+
+..
 
 This the landing page for documentation relevant to developers of the Open edX platform.  For other documentation
 resources targeted for edX learners, educators, researchers, and Open edX operators, see `docs.edx.org <docs.edx.org>`_.
