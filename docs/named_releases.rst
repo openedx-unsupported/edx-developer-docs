@@ -38,7 +38,7 @@ Koa
 
 * **Code cut date:** 2020-11-12
 * **Status:** supported
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/koa.html>`_
+* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/koa.html>`__
 
 .. list-table::
    :header-rows: 1
@@ -56,7 +56,7 @@ Juniper
 
 * **Code cut date:** 2020-05-27
 * **Status:** unsupported
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/juniper.html>`_
+* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/juniper.html>`__
 
 .. list-table::
    :header-rows: 1
@@ -161,7 +161,7 @@ A note about Vagrant box files:
           * c05fcd63df5fae452f0c8cb84720317449215472
 
    * - Ginkgo.1
-     - 2017-08-14	
+     - 2017-08-14
      - open-release/ginkgo.1
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/ginkgo-devstack-2017-07-14.box?torrent>`__
           * ginkgo-devstack-2017-07-14
@@ -187,7 +187,7 @@ Ficus
      - Vagrant Box Files
 
    * - Ficus.4
-     - 2017-08-10	
+     - 2017-08-10
      - open-release/ficus.4
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/ficus-devstack-2017-02-07.box?torrent>`__
           * ficus-devstack-2017-02-07 *
@@ -197,7 +197,7 @@ Ficus
           * c9f59b27b39339d12fcf008f7c5721c2970a57bd
 
    * - Ficus.3
-     - 2017-04-21	
+     - 2017-04-21
      - open-release/ficus.3
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/ficus-devstack-2017-02-07.box?torrent>`__
           * ficus-devstack-2017-02-07 *
@@ -207,7 +207,7 @@ Ficus
           * 64eb0a247d99454bccf0eed7ec49b076cbb9cd69 
 
    * - Ficus.2
-     - 2017-03-29	
+     - 2017-03-29
      - open-release/ficus.2
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/ficus-devstack-2017-02-07.box?torrent>`__
           * ficus-devstack-2017-02-07 *
@@ -217,7 +217,7 @@ Ficus
           * fc6aa0d3b686c83e38e8c7fa1b1f172fcf7f71c1 
 
    * - Ficus.1
-     - 2017-02-23	
+     - 2017-02-23
      - open-release/ficus.1
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/ficus-devstack-2017-02-07.box?torrent>`__
           * ficus-devstack-2017-02-07
@@ -243,7 +243,7 @@ Eucalyptus
      - Vagrant Box Files
 
    * - Eucalyptus.3
-     - 2017-01-10	
+     - 2017-01-10
      - open-release/eucalyptus.3
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/eucalyptus-devstack-2016-09-01.box?torrent>`__
           * eucalyptus-devstack-2016-09-01 *
@@ -253,7 +253,7 @@ Eucalyptus
           * 64fd2a6efd656a7170127cccdf4458699ea04978 
 
    * - Eucalyptus.2
-     - 2016-09-02	
+     - 2016-09-02
      - open-release/eucalyptus.2
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/eucalyptus-devstack-2016-09-01.box?torrent>`__
           * eucalyptus-devstack-2016-09-01
@@ -261,7 +261,7 @@ Eucalyptus
           * eucalyptus-fullstack-2016-09-01
 
    * - Eucalyptus.1
-     - 2016-08-26	
+     - 2016-08-26
      - open-release/eucalyptus.1
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/eucalyptus-devstack-2016-08-19.box?torrent>`__
           * eucalyptus-devstack-2016-08-19
@@ -285,7 +285,7 @@ Dogwood
      - Vagrant Box Files
 
    * - Dogwood.3
-     - 2016-04-25	
+     - 2016-04-25
      - named-release/dogwood.3
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/dogwood-devstack-2016-03-09.box?torrent>`__
           * dogwood-devstack-2016-03-09 *
@@ -293,7 +293,7 @@ Dogwood
           * dogwood-fullstack-rc2 *
 
    * - Dogwood.2
-     - 2016-04-14	
+     - 2016-04-14
      - named-release/dogwood.2
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/dogwood-devstack-2016-03-09.box?torrent>`__
           * dogwood-devstack-2016-03-09 *
@@ -301,7 +301,7 @@ Dogwood
           * dogwood-fullstack-rc2 *
 
    * - Dogwood.1
-     - 2016-03-09	
+     - 2016-03-09
      - named-release/dogwood.1
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/dogwood-devstack-2016-03-09.box?torrent>`__
           * dogwood-devstack-2016-03-09
@@ -309,7 +309,7 @@ Dogwood
           * dogwood-fullstack-rc2 *
 
    * - Dogwood
-     - 2016-02-11	
+     - 2016-02-11
      - named-release/dogwood
      - * `devstack <https://s3.amazonaws.com/edx-static/vagrant-images/20151221-dogwood-devstack-rc2.box?torrent>`__
           * dogwood-devstack-rc2
@@ -415,7 +415,7 @@ email to security@edx.org. Please do not post the vulnerability to the public m
 Feedback
 --------
 
-If you find a problem in the release candidate, please report them on the mailing list (openedx-ops_ for operations 
+If you find a problem in the release candidate, please report them on the mailing list (openedx-ops_ for operations
 problem, edx-code_ for other problems), or even better, create issues in JIRA_.  We are very interested to hear from
 the community about what you value about Open edX releases. Please let us know what you would like to see in future
 releases.  Discussion on the `mailing list`_ is always welcome, of course!
