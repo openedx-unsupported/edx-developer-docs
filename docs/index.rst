@@ -6,6 +6,12 @@ Welcome new and returning Open edX developers!
 
 This is the central repository for documentation that will help you work with Open edX code. 
 
+..
+   Alternating the index page content with small chunks of the TOC 
+   is the approach used by readthedocs themselves, 
+   so I've adopted it here. - AEB
+..
+
 New to edX? Start here.
 -----------------------
 
