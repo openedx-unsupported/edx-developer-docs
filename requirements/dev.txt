@@ -4,22 +4,60 @@
 #
 #    make upgrade
 #
-click==7.0
-configparser==3.7.4
-contextlib2==0.5.5
+appdirs==1.4.4
+    # via
+    #   -r requirements/travis.txt
+    #   virtualenv
+click==7.1.2
+    # via
+    #   -r requirements/pip-tools.txt
+    #   pip-tools
+distlib==0.3.1
+    # via
+    #   -r requirements/travis.txt
+    #   virtualenv
 filelock==3.0.12
-importlib-metadata==0.18
-pathlib2==2.3.3
-pip-tools==3.8.0
-pluggy==0.12.0
-py==1.8.0
-scandir==1.10.0
-six==1.12.0
-toml==0.10.0
-tox-battery==0.5.1
-tox==3.12.1
-virtualenv==16.6.1
-zipp==0.5.1
+    # via
+    #   -r requirements/travis.txt
+    #   tox
+    #   virtualenv
+packaging==20.8
+    # via
+    #   -r requirements/travis.txt
+    #   tox
+pip-tools==5.5.0
+    # via -r requirements/pip-tools.txt
+pluggy==0.13.1
+    # via
+    #   -r requirements/travis.txt
+    #   tox
+py==1.10.0
+    # via
+    #   -r requirements/travis.txt
+    #   tox
+pyparsing==2.4.7
+    # via
+    #   -r requirements/travis.txt
+    #   packaging
+six==1.15.0
+    # via
+    #   -r requirements/travis.txt
+    #   tox
+    #   virtualenv
+toml==0.10.2
+    # via
+    #   -r requirements/travis.txt
+    #   tox
+tox-battery==0.6.1
+    # via -r requirements/travis.txt
+tox==3.21.1
+    # via
+    #   -r requirements/travis.txt
+    #   tox-battery
+virtualenv==20.3.1
+    # via
+    #   -r requirements/travis.txt
+    #   tox
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools==41.0.1        # via tox
+# pip
