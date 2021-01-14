@@ -18,6 +18,8 @@ New to edX? Start here.
   :doc: `Our mission </new_to_edx/mission>` 
   :doc: `What our systems do </new_to_edx/what_our_systems_do>`
   :doc: `How we represent real-world data </new_to_edx/data_model>`
+  :doc: `Our internal messaging model </new_to_edx/messaging_model>`
+  :doc: `What you should read next </new_to_edx/what_to_read_next>`
 
 
 .. toctree::
@@ -27,7 +29,8 @@ New to edX? Start here.
    /new_to_edx/mission
    /new_to_edx/what_our_systems_do
    /new_to_edx/data_model
-
+   /new_to_edx/messaging_model
+   /new_to_edx/what_to_read_next
 
 Extending the core Open edX platform
 ------------------------------------
@@ -45,6 +48,10 @@ Extending the core Open edX platform
    /all_development/setting_up_dev_envt
   
 
+.. 
+  Search components are not included in Open edX RST files by default. Should
+  they be?
+..
 
 Indices and tables
 ==================
