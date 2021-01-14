@@ -21,6 +21,10 @@ New to edX? Start here.
   :doc: `Our internal messaging model </new_to_edx/messaging_model>`
   :doc: `What you should read next </new_to_edx/what_to_read_next>`
 
+..
+  If a page is linked on the body of the home page it should appear in the TOC
+  as well.
+..
 
 .. toctree::
    :maxdepth: 4
@@ -32,21 +36,33 @@ New to edX? Start here.
    /new_to_edx/messaging_model
    /new_to_edx/what_to_read_next
 
+Information for all Open edX developers
+---------------------------------------
+
+  :doc: `System requirements for development devices </all_development/system_requirements>`
+  :doc: `Setting up your development environment </all_development/setting_up_dev_envt>`
+  :doc: `Finding the correct GitHub repository </all_development/finding_the_correct_github_repo>`
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Information for all Open edX developers
+
+   /all_development/system_requirements
+   /all_development/setting_up_dev_envt
+   /all_development/finding_the_correct_github_repo
+
+
 Extending the core Open edX platform
 ------------------------------------
 
   :doc: `What can you extend? </extending/what_can_you_extend>` 
-  :doc: `System requirements for development devices </all_development/system_requirements>` 
-  :doc: `Setting up your development environment </all_development/setting_up_dev_envt>`
+
 
 .. toctree::
    :maxdepth: 4
    :caption: Extending the core platform
 
-   /extending/what_can_you_extend
-   /all_development/system_requirements
-   /all_development/setting_up_dev_envt
-  
+   /extending/what_can_you_extend  
 
 .. 
   Search components are not included in Open edX RST files by default. Should
@@ -110,3 +126,4 @@ Open edX Development
 
    * - `Open edX Extensions and APIs <https://open.edx.org/extending-edx>`_
      - Landing page for supported APIs and extensions to the Open edX platform.
+..
