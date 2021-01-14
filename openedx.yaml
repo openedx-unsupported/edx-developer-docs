@@ -1,7 +1,6 @@
 # openedx.yaml
 
 ---
-owner: edx/arch-review
 nick: edx-developer-docs
 tags:
     - tools
