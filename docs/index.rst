@@ -6,8 +6,9 @@ Welcome new and returning Open edX developers!
 
 This is the central repository for documentation that will help you work with Open edX code. 
 
-New to edX? Start here.
------------------------
+
+New to edX? Start here
+======================
 
 A few sentences here.
 
@@ -31,9 +32,15 @@ A few sentences here.
    new_to_edx/what_to_read_next
 
 Information for all Open edX developers
----------------------------------------
+=======================================
 
-A few sentences here.
+You will likely use some or all of the information in this section as you progress 
+in your Open edX development work. Take a look through the topics here before you begin
+writing code. 
+
+
+A roadmap to development setup
+------------------------------
 
 * :doc:`all_development/system_requirements`
 * :doc:`Setting up your development environment <all_development/setting_up_dev_envt>`
@@ -48,13 +55,29 @@ A few sentences here.
    all_development/setting_up_dev_envt
    all_development/finding_the_correct_github_repo
 
+Technology common to core development and extensions
+----------------------------------------------------
 
-Working with the core Open edX platform
----------------------------------------
 
-It's a good idea to be familiar with the information in "New to edX? Start here." and "Information for all Open edX Developers" before you look at this section.
+Our standards for code and community
+------------------------------------
 
-A couple more sentences here. 
+* Internationalization (i18n)
+* Accessibility
+* Security
+* Style
+* Code of conduct
+
+
+Contributing to our repositories
+--------------------------------
+
+
+Working with the core platform
+==============================
+
+Before you begin reading topics in this section, make sure you're familiar
+with the information in "New to edX? Start here" and "Information for all Open edX Developers".
 
 * :doc:`working_with_core/what_you_can_do_with_core`
 
@@ -62,19 +85,22 @@ A couple more sentences here.
 .. toctree::
    :maxdepth: 4
    :hidden:
-   :caption: Working with the core Open edX platform
+   :caption: Working with the core platform
 
    working_with_core/what_you_can_do_with_core
 
 
 Extending Open edX
-------------------
+==================
 
-It's a good idea to be familiar with the information in "New to edX? Start here." and "Information for all Open edX Developers" before you look at this section.
+Before you begin reading topics in this section, make sure you're familiar
+with the information in "New to edX? Start here" and "Information for all Open edX Developers".
 
 A couple more sentences here. 
 
 * :doc:`extending/what_can_you_extend`
+* :doc:`extending/theming`
+
  
 
 .. toctree::
@@ -82,6 +108,22 @@ A couple more sentences here.
    :hidden:
    :caption: Extending the core platform
 
-   extending/what_can_you_extend  
+   extending/what_can_you_extend
+   extending/theming  
 
+Technical reference
+===================
+
+Architectural topics (Confluence)
+Modulestore 
+Glossary
+Current and past releases (may need to point to this extensively from other pages
+
+
+Documentation for other Open edX tasks
+======================================
+
+Course authoring
+Admin guide
+...
 
