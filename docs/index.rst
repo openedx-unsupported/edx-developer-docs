@@ -39,6 +39,13 @@ in your Open edX development work. Take a look through the topics here before yo
 writing code. 
 
 
++--------------------------------------------+-------------------------------+
+| :doc:`all_development/index`               | Getting your device set up    | 
+|                                            | for development, testing, and |  
+|                                            | deployment.                   |
++--------------------------------------------+-------------------------------+
+
+
 A roadmap to development setup
 ------------------------------
 
