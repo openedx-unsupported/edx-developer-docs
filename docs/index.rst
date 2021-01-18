@@ -40,97 +40,20 @@ writing code.
 
 
 +--------------------------------------------+-------------------------------+
-| :doc:`all_development/index`               | Getting your device set up    | 
+| :doc:`all_development/roadmap/index`       | Getting your device set up    | 
 |                                            | for development, testing, and |  
 |                                            | deployment.                   |
 +--------------------------------------------+-------------------------------+
-
-
-A roadmap to development setup
-------------------------------
-
-* :doc:`all_development/system_requirements`
-* :doc:`Setting up your development environment <all_development/setting_up_dev_envt>`
-* :doc:`Finding the correct GitHub repository <all_development/finding_the_correct_github_repo>`
+| :doc:`all_development/common_tech/index`   | Common elements shared by     | 
+|                                            | core platform and extension   |  
+|                                            | work.                         |
++--------------------------------------------+-------------------------------+
 
 .. toctree::
-   :hidden:
    :maxdepth: 4
+   :hidden:
    :caption: Information for all Open edX developers
 
-   all_development/system_requirements
-   all_development/setting_up_dev_envt
-   all_development/finding_the_correct_github_repo
-
-Technology common to core development and extensions
-----------------------------------------------------
-
-
-Our standards for code and community
-------------------------------------
-
-* Internationalization (i18n)
-* Accessibility
-* Security
-* Style
-* Code of conduct
-
-
-Contributing to our repositories
---------------------------------
-
-
-Working with the core platform
-==============================
-
-Before you begin reading topics in this section, make sure you're familiar
-with the information in "New to edX? Start here" and "Information for all Open edX Developers".
-
-* :doc:`working_with_core/what_you_can_do_with_core`
-
-
-.. toctree::
-   :maxdepth: 4
-   :hidden:
-   :caption: Working with the core platform
-
-   working_with_core/what_you_can_do_with_core
-
-
-Extending Open edX
-==================
-
-Before you begin reading topics in this section, make sure you're familiar
-with the information in "New to edX? Start here" and "Information for all Open edX Developers".
-
-A couple more sentences here. 
-
-* :doc:`extending/what_can_you_extend`
-* :doc:`extending/theming`
-
- 
-
-.. toctree::
-   :maxdepth: 4
-   :hidden:
-   :caption: Extending the core platform
-
-   extending/what_can_you_extend
-   extending/theming  
-
-Technical reference
-===================
-
-Architectural topics (Confluence)
-Modulestore 
-Glossary
-Current and past releases (may need to point to this extensively from other pages
-
-
-Documentation for other Open edX tasks
-======================================
-
-Course authoring
-Admin guide
-...
+   all_development/roadmap/index
+   all_development/common_tech/index
 
