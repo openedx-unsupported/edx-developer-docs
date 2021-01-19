@@ -67,26 +67,27 @@ writing code.
    all_development/dev_principles/index
    all_development/contributing/index
 
+.. Working with the core Open edX platform
+.. =======================================
 
-Working with the core Open edX platform
-=======================================
+.. If you want to work with the Open edX core systems (course authoring, need to enumerate), review these topics.
 
-If you want to work with the Open edX core systems (course authoring, need to enumerate), review these topics.
-
-If you want to contribute to the Open edX repositories, see :doc:`all_development/contributing/index`.
+.. If you want to contribute to the Open edX repositories, see :doc:`all_development/contributing/index`.
 
 .. WHICH TOPICS ARE UNIQUE TO CORE DEVELOPMENT?
 
-* :doc:`working_with_core/working_with_core_topic_1`
-* :doc:`working_with_core/working_with_core_topic_2`
+.. * :doc:`working_with_core/working_with_core_topic_1`
+.. * :doc:`working_with_core/working_with_core_topic_2`
 
-.. toctree::
+
+.. .. toctree::
    :maxdepth: 4
    :hidden:
    :caption: Working with the core Open edX platform
 
    working_with_core/working_with_core_topic_1
    working_with_core/working_with_core_topic_2
+..
 
 Extending the Open edX platform
 ===============================
