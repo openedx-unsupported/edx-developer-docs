@@ -126,8 +126,8 @@ Review this information at your leisure.
    :hidden:
    :caption: Technical reference
 
-   `Architecture and Engineering Confluence page <https://openedx.atlassian.net/wiki/spaces/AC/overview>`_
-   https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/glossary.html
+   Architecture and Engineering Confluence page <https://openedx.atlassian.net/wiki/spaces/AC/overview>
+   Glossary <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/glossary.html>
 
 
 
