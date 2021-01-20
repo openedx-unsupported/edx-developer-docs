@@ -7,31 +7,33 @@ Welcome new and returning Open edX developers!
 This is the central repository for documentation that will help you work with Open edX code. 
 
 
-New to edX? Start here
-======================
+New to Open edX development? Start here
+=======================================
 
 This quick overview is intended for developers new to the Open edX platform, junior and senior alike. 
 
 After you've reviewed these topics you'll be ready for more detail on our architecture, or you can get ready for active development with the topics in "Information for all Open edX developers."
 
-* :doc:`new_to_edx/what_you_can_do`
 * :doc:`new_to_edx/mission`
-* :doc:`new_to_edx/what_our_systems_do`
+* `A 15-minute introduction to Open edX systems <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/architecture.html>`_
+* :doc:`More about each system <new_to_edx/what_our_systems_do>`
 * :doc:`new_to_edx/data_model`
 * :doc:`new_to_edx/messaging_model`
-* :doc:`new_to_edx/what_to_read_next`
+* :doc:`What you as a developer can do with the Open edX platform <new_to_edx/what_you_can_do>`
+
 
 .. toctree::
    :hidden:
    :maxdepth: 4
-   :caption: New to edX?
+   :caption: New to Open edX development?
 
-   new_to_edx/what_you_can_do
    new_to_edx/mission
-   new_to_edx/what_our_systems_do
+   A 15-minute introduction to Open edX systems <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/architecture.html>
+   More about each system <new_to_edx/what_our_systems_do>
    new_to_edx/data_model
    new_to_edx/messaging_model
-   new_to_edx/what_to_read_next
+   What you as a developer can do with the Open edX platform <new_to_edx/what_you_can_do>
+
 
 Information for all Open edX developers
 =======================================
