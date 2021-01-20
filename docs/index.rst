@@ -143,3 +143,22 @@ Review this information at your leisure.
 Information for other user groups
 =================================
 
+* :doc:`Course authoring teams <universal_stub>`
+* :doc:`System administrators <universal_stub>`
+* :doc:`Researchers <universal_stub>`
+* :doc:`Open edX partners <universal_stub>`
+* :doc:`Learners <universal_stub>`
+
+
+.. toctree::
+   :maxdepth: 4
+   :hidden:
+   :caption: Information for other user groups
+
+   Course authoring teams <universal_stub>
+   System administrators <universal_stub>
+   Researchers <universal_stub>
+   Open edX partners <universal_stub>
+   Learners <universal_stub>
+
+
