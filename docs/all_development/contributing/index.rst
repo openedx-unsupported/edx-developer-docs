@@ -8,12 +8,30 @@ Overview
 General Guidelines
 ==================
  
-Roles and Tasks
-===============
+Contribution Roles and Tasks
+============================
 
 Contributor
 ===========
- 
+
+Before you write code:
+
+* Writing Good Code
+* Internationalization
+* Security Principles
+* Operational Impact
+* Documentation/Training/Support
+* Development
+* Testing
+* Analytics
+* Collaboration
+* Open Source
+* UX/Design/Front End Development
+* Contributing to the Documentation for Your Open Source Feature
+
+Opening a pull request:
+
+
 * Once A PR is Open
 * Further Information
 * Pull Request Cover Letter
@@ -25,20 +43,12 @@ Community Manager
 Product Owner
 =============
 
-Core Committer
-==============
+Core Committer Program
+======================
 
 * Review Comments Terminology
 
 Code Considerations
 ===================
  
-* Operational Impact
-* Documentation/Training/Support
-* Development
-* Testing
-* Analytics
-* Collaboration
-* Open Source
-* UX/Design/Front End Development
-* Contributing to the Documentation for Your Open Source Feature
+
