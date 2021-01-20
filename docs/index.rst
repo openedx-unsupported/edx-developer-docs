@@ -120,6 +120,8 @@ Review this information at your leisure.
      - Confluence page for notes, thoughts, and project-related documents on Open edX architecture and engineering.
    * - `Open edX Glossary <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/glossary.html>`_
      - Glossary of terms unique to the Open edX environment.
+   * - :doc:`Supported browsers <universal_stub>`  
+     - Supported browsers
 
 .. toctree::
    :maxdepth: 4
@@ -128,6 +130,7 @@ Review this information at your leisure.
 
    Architecture and Engineering Confluence page <https://openedx.atlassian.net/wiki/spaces/AC/overview>
    Glossary <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/glossary.html>
+   Supported browsers <universal_stub>
 
 
 
