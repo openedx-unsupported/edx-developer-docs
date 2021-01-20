@@ -2,13 +2,17 @@
 Technology common to core and extensions
 ########################################
 
-A few words of intro
+Information in the topics below is pertinent to both core and extension work.
 
-* :doc:`shared_tech_example`
+* `Analytics <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html>`_
+* `Micro-frontends <https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/developers_guide/micro_frontends_in_open_edx.html>`_
+
 
 .. toctree::
+   :maxdepth: 4
    :hidden:
-   :maxdepth: 2
+   :caption: Technology common to core and extensions
 
-   shared_tech_example
+   Analytics <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html>
+   Micro-frontends <https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/developers_guide/micro_frontends_in_open_edx.html>
 
