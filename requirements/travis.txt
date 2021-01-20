@@ -12,6 +12,11 @@ filelock==3.0.12
     # via
     #   tox
     #   virtualenv
+importlib-metadata==3.4.0
+    # via
+    #   pluggy
+    #   tox
+    #   virtualenv
 packaging==20.8
     # via tox
 pluggy==0.13.1
@@ -28,9 +33,13 @@ toml==0.10.2
     # via tox
 tox-battery==0.6.1
     # via -r requirements/travis.in
-tox==3.21.1
+tox==3.21.2
     # via
     #   -r requirements/travis.in
     #   tox-battery
-virtualenv==20.3.1
+typing-extensions==3.7.4.3
+    # via importlib-metadata
+virtualenv==20.4.0
     # via tox
+zipp==3.4.0
+    # via importlib-metadata
