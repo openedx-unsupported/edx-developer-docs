@@ -9,6 +9,7 @@ Information in the topics below is pertinent to both core and extension work.
 * :doc:`Independently deployed applications (IDAs) <../../universal_stub>`
 * :doc:`Django configuration and toggles <../../universal_stub>`
 * :doc:`Modulestore <../../universal_stub>`
+* :doc:`Blockstore <../../universal_stub>`
 * :doc:`Named releases <../../universal_stub>`
 
 
@@ -22,5 +23,5 @@ Information in the topics below is pertinent to both core and extension work.
    Independently deployed applications (IDAs) <../../universal_stub>
    Django configuration and toggles <../../universal_stub>
    Modulestore <../../universal_stub>
-   Toggles <../../universal_stub>
+   Blockstore <../../universal_stub>
    Named releases <../../universal_stub>
