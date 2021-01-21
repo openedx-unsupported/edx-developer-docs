@@ -1,13 +1,13 @@
-########################
-Contributing to Open edX 
-########################
+###############################################
+Contributing to Open edX code and documentation
+###############################################
 
 Overview
 ========
 
 General Guidelines
 ==================
- 
+
 Contribution Roles and Tasks
 ============================
 
@@ -50,5 +50,3 @@ Core Committer Program
 
 Code Considerations
 ===================
- 
-

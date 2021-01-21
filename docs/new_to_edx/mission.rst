@@ -1,5 +1,5 @@
 ====================
-The Open edX Mission
+The Open edX mission
 ====================
 
 Stub for mission.rst
