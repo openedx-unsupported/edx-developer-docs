@@ -15,6 +15,7 @@ This quick overview is intended for developers new to the Open edX platform, jun
 After you've reviewed these topics you'll be ready for more detail on our architecture, or you can prepare for active development with the topics in "Information for all Open edX developers."
 
 * :doc:`new_to_edx/mission`
+* :doc:`Our code of conduct <universal_stub>`
 * `A 15-minute introduction to Open edX systems <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/architecture.html>`_
 * :doc:`More about each system <new_to_edx/what_our_systems_do>`
 * :doc:`new_to_edx/data_model`
@@ -28,6 +29,7 @@ After you've reviewed these topics you'll be ready for more detail on our archit
    :caption: New to Open edX development?
 
    new_to_edx/mission
+   Our code of conduct <universal_stub>
    A 15-minute introduction to Open edX systems <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/architecture.html>
    More about each system <new_to_edx/what_our_systems_do>
    new_to_edx/data_model
@@ -126,6 +128,8 @@ Review this information at your leisure.
      - Glossary of terms unique to the Open edX environment.
    * - :doc:`Supported browsers <universal_stub>`
      - Supported browsers
+   * - :doc:`Named releases <universal_stub>`
+     - Named releases
 
 .. toctree::
    :maxdepth: 4
@@ -135,6 +139,7 @@ Review this information at your leisure.
    Architecture and engineering Confluence information hub <https://openedx.atlassian.net/wiki/spaces/AC/overview>
    Open edX glossary <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/glossary.html>
    Supported browsers <universal_stub>
+   Named releases <universal_stub>
 
 
 

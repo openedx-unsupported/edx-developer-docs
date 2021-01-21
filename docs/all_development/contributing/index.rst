@@ -18,6 +18,7 @@ Before you write code:
 
 * Writing Good Code
 * Internationalization
+* Accessibility
 * Security Principles
 * Operational Impact
 * Documentation/Training/Support
@@ -45,8 +46,3 @@ Product Owner
 
 Core Committer Program
 ======================
-
-* Review Comments Terminology
-
-Code Considerations
-===================
