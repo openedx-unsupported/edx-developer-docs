@@ -19,7 +19,7 @@ Before you write code:
 * Writing Good Code
 * Internationalization
 * Accessibility
-* Security Principles
+* :doc:`security/index`
 * Operational Impact
 * Documentation/Training/Support
 * Development
