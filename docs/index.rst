@@ -44,6 +44,7 @@ You will likely use some or all of the information in this section as you progre
 in your Open edX development work. Take a look through the topics here before you begin
 writing code.
 
+
 .. From the outline: these topics appear to be of common interest. Are they? i18n, XSS, MFEs (Micro-frontends), IDAs (Independently Deployed Applications, a.k.a. Microservices), Django Configuration/Toggles, Named Releases]
 
 .. list-table::
