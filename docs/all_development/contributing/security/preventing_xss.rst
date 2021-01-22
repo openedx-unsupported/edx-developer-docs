@@ -72,7 +72,7 @@ manipulation, and different types of escaping. As a general rule, proper
 escaping is related to the context in which the data is being written, and
 might not match the context that will eventually be reading the data.
 
-.. image:: ../images/preventing-xss.png
+.. image:: ../../../images/security/preventing-xss.png
     :width: 666px
     :height: 289px
     :align: center
@@ -572,7 +572,7 @@ JavaScript context.
 Here is an example of how to import and use ``js_escaped_string`` and
 ``dump_js_escaped_json`` in the context of JavaScript in a Mako template.
 
-.. code-block:: 
+.. code-block::
 
     <%namespace name='static' file='static_content.html'/>
     <%!
