@@ -115,6 +115,8 @@ html_theme_path = [edx_theme.get_html_theme_path()]
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# Provides for custom behavior such as where links open.
+
 html_js_files = [
     'js/custom.js'
 ]

@@ -1,3 +1,5 @@
+.. Root index file for winter 2021 developer doc refresh. Content has been reorganized with an eye toward what the user wants to accomplish. 
+
 ####################################
 Open edX Developer Documentation Hub
 ####################################
