@@ -2,5 +2,7 @@
 Shared tech example 1
 #####################
 
-Example of common tech
+Heading 2
+=========
 
+Here is some text for the TOCtree test

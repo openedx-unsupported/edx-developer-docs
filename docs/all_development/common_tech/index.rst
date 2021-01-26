@@ -12,11 +12,12 @@ Information in the topics below is pertinent to both core and extension work.
 * :doc:`Modulestore <../../universal_stub>`
 * :doc:`Blockstore <../../universal_stub>`
 * :doc:`Named releases <../../universal_stub>`
+* :doc:`Topic with subheadings to test TOC display <shared_tech_example>`
 
 
 .. toctree::
-   :maxdepth: 4
    :hidden:
+   :maxdepth: 8
    :caption: Technology common to core and extensions
 
    Analytics <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html>
@@ -27,3 +28,4 @@ Information in the topics below is pertinent to both core and extension work.
    Modulestore <../../universal_stub>
    Blockstore <../../universal_stub>
    Named releases <../../universal_stub>
+   Topic with subheadings to test TOC display <shared_tech_example>

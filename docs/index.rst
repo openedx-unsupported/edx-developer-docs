@@ -64,7 +64,7 @@ writing code.
 
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 8
    :hidden:
    :caption: Information for all Open edX developers
 
