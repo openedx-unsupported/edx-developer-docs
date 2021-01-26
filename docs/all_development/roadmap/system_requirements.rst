@@ -1,5 +1,5 @@
-===========================================
-System requirements for development devices
-===========================================
+============================================================
+System requirements for development, testing, and deployment
+============================================================
 
 Stub for system requirements

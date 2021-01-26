@@ -1,4 +1,4 @@
-.. Root index file for winter 2021 developer doc refresh. Content has been reorganized with an eye toward what the user wants to accomplish. 
+.. Root index file for winter 2021 developer doc refresh. Content has been reorganized with an eye toward what the user wants to accomplish.
 
 ####################################
 Open edX Developer Documentation Hub
@@ -23,7 +23,7 @@ After you've reviewed these topics you'll be ready for more detail on our archit
 * :doc:`new_to_edx/data_model`
 * :doc:`new_to_edx/messaging_model`
 * :doc:`What you as a developer can do with the Open edX platform <new_to_edx/what_you_can_do>`
-
+* :doc:`Recommended setup for development, testing, and deployment <all_development/roadmap/index>`
 
 .. toctree::
    :hidden:
@@ -37,6 +37,7 @@ After you've reviewed these topics you'll be ready for more detail on our archit
    new_to_edx/data_model
    new_to_edx/messaging_model
    What you as a developer can do with the Open edX platform <new_to_edx/what_you_can_do>
+   Recommended setup for development, testing, and deployment <all_development/roadmap/index>
 
 
 Information for all Open edX developers
@@ -53,7 +54,7 @@ writing code.
    :widths: auto
 
    * - :doc:`all_development/roadmap/index`
-     - Getting your device set up for development, testing, and deployment.
+     - Recommended setup for development, testing, and deployment.
    * - :doc:`all_development/common_tech/index`
      - Common elements shared by core platform and extension work.
    * - :doc:`all_development/contributing/index`
