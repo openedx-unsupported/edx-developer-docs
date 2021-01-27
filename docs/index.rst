@@ -20,8 +20,6 @@ After you've reviewed these topics you'll be ready for more detail on our archit
 * :doc:`Our code of conduct <universal_stub>`
 * `A 15-minute introduction to Open edX systems <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/architecture.html>`_
 * :doc:`More about each system <new_to_edx/what_our_systems_do>`
-* :doc:`new_to_edx/data_model`
-* :doc:`new_to_edx/messaging_model`
 * :doc:`What you as a developer can do with the Open edX platform <new_to_edx/what_you_can_do>`
 * :doc:`Recommended setup for development, testing, and deployment <all_development/roadmap/index>`
 
@@ -34,8 +32,6 @@ After you've reviewed these topics you'll be ready for more detail on our archit
    Our code of conduct <universal_stub>
    A 15-minute introduction to Open edX systems <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/architecture.html>
    More about each system <new_to_edx/what_our_systems_do>
-   new_to_edx/data_model
-   new_to_edx/messaging_model
    What you as a developer can do with the Open edX platform <new_to_edx/what_you_can_do>
    Recommended setup for development, testing, and deployment <all_development/roadmap/index>
 

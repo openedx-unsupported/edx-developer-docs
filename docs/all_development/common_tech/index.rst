@@ -7,6 +7,8 @@ Information in the topics below is pertinent to both core and extension work.
 * `Analytics <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html>`_
 * `Micro-frontends <https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/developers_guide/micro_frontends_in_open_edx.html>`_
 * :doc:`Independently deployed applications (IDAs) <../../universal_stub>`
+* :doc:`Our data model <data_model>`
+* :doc:`Our messaging model <messaging_model>`
 * :doc:`Authentication and authorization <../../universal_stub>`
 * :doc:`Django configuration and toggles <../../universal_stub>`
 * :doc:`Modulestore <../../universal_stub>`
@@ -23,6 +25,8 @@ Information in the topics below is pertinent to both core and extension work.
    Analytics <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html>
    Micro-frontends <https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/developers_guide/micro_frontends_in_open_edx.html>
    Independently deployed applications (IDAs) <../../universal_stub>
+   Our data model <data_model>
+   Our messaging model <messaging_model>
    Authentication and authorization <../../universal_stub>
    Django configuration and toggles <../../universal_stub>
    Modulestore <../../universal_stub>
