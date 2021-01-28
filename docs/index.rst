@@ -21,11 +21,10 @@ After you've reviewed these topics you'll be ready for more detail on our archit
 * `A 15-minute introduction to Open edX systems <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/architecture.html>`_
 * :doc:`More about each system <new_to_edx/what_our_systems_do>`
 * :doc:`What you as a developer can do with the Open edX platform <new_to_edx/what_you_can_do>`
-* :doc:`Recommended setup for development, testing, and deployment <all_development/roadmap/index>`
+* :doc:`all_development/roadmap/index`
 
 .. toctree::
    :hidden:
-   :maxdepth: 4
    :caption: New to Open edX development?
 
    new_to_edx/mission
@@ -33,7 +32,7 @@ After you've reviewed these topics you'll be ready for more detail on our archit
    A 15-minute introduction to Open edX systems <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/architecture.html>
    More about each system <new_to_edx/what_our_systems_do>
    What you as a developer can do with the Open edX platform <new_to_edx/what_you_can_do>
-   Recommended setup for development, testing, and deployment <all_development/roadmap/index>
+   all_development/roadmap/index
 
 
 Information for all Open edX developers
@@ -60,7 +59,6 @@ writing code.
 
 
 .. toctree::
-   :maxdepth: 8
    :hidden:
    :caption: Information for all Open edX developers
 
@@ -83,7 +81,6 @@ writing code.
 
 
 .. .. toctree::
-   :maxdepth: 4
    :hidden:
    :caption: Working with the core Open edX platform
 
@@ -107,7 +104,6 @@ If you want to contribute to the Open edX repositories, see :doc:`all_developmen
 .. The "JavaScript template" should be a subtopic of "adding custom JS applications."
 
 .. toctree::
-   :maxdepth: 4
    :hidden:
    :caption: Extending the Open edX platform
 
@@ -132,7 +128,6 @@ Review this information at your leisure.
      - Named releases
 
 .. toctree::
-   :maxdepth: 4
    :hidden:
    :caption: Technical reference
 
@@ -154,7 +149,6 @@ Information for other user groups
 
 
 .. toctree::
-   :maxdepth: 4
    :hidden:
    :caption: Information for other user groups
 

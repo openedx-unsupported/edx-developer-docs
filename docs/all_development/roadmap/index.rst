@@ -11,9 +11,7 @@ A few words of intro
 
 .. toctree::
    :hidden:
-   :maxdepth: 4
 
    system_requirements
    setting_up_dev_envt
    finding_the_correct_github_repo
-
