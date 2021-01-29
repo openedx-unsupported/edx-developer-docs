@@ -21,6 +21,12 @@ filelock==3.0.12
     #   -r requirements/travis.txt
     #   tox
     #   virtualenv
+importlib-metadata==3.4.0
+    # via
+    #   -r requirements/travis.txt
+    #   pluggy
+    #   tox
+    #   virtualenv
 packaging==20.8
     # via
     #   -r requirements/travis.txt
@@ -50,14 +56,22 @@ toml==0.10.2
     #   tox
 tox-battery==0.6.1
     # via -r requirements/travis.txt
-tox==3.21.1
+tox==3.21.2
     # via
     #   -r requirements/travis.txt
     #   tox-battery
-virtualenv==20.3.1
+typing-extensions==3.7.4.3
+    # via
+    #   -r requirements/travis.txt
+    #   importlib-metadata
+virtualenv==20.4.0
     # via
     #   -r requirements/travis.txt
     #   tox
+zipp==3.4.0
+    # via
+    #   -r requirements/travis.txt
+    #   importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip

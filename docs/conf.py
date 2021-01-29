@@ -106,6 +106,8 @@ html_theme = 'edx_theme'
 # documentation.
 html_theme_options = {}
 html_theme_options['includehidden'] = True
+html_theme_options['navigation_depth'] = 4
+
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = [edx_theme.get_html_theme_path()]
@@ -114,6 +116,12 @@ html_theme_path = [edx_theme.get_html_theme_path()]
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# Provides for custom behavior such as where links open.
+
+html_js_files = [
+    'js/custom.js'
+]
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = '{project_name}doc'.format(project_name=project)
