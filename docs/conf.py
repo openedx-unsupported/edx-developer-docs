@@ -106,7 +106,7 @@ html_theme = 'edx_theme'
 # documentation.
 html_theme_options = {}
 html_theme_options['includehidden'] = True
-html_theme_options['navigation_depth'] = 2
+html_theme_options['navigation_depth'] = 4
 
 
 # Add any paths that contain custom themes here, relative to this directory.
