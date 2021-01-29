@@ -103,7 +103,7 @@ Review this information at your leisure.
      - Glossary of terms unique to the Open edX environment.
    * - :doc:`Supported browsers <universal_stub>`
      - Supported browsers
-   * - :doc:`Named releases <universal_stub>`
+   * - :doc:`technical_reference/named_releases`
      - Named releases
 
 .. toctree::
@@ -113,7 +113,7 @@ Review this information at your leisure.
    Architecture and engineering Confluence information hub <https://openedx.atlassian.net/wiki/spaces/AC/overview>
    Open edX glossary <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/glossary.html>
    Supported browsers <universal_stub>
-   Named releases <universal_stub>
+   technical_reference/named_releases
 
 
 
