@@ -76,7 +76,7 @@ If you want to contribute to the Open edX repositories, see :doc:`all_developmen
 
 .. [From the outline: writing extensions/plugins and theming would go here.]
 
-* `What you can extend <https://github.com/edx/edx-platform/blob/master/docs/guides/extension_points.rst>`_
+* :doc:`extending/overview_extending`
 * `Custom course content and beyond: integrating XBlocks with the platform <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/extending_platform/xblocks.html>`_
 * `Adding custom JavaScript applications to courses <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/extending_platform/javascript.html>`_
 
@@ -86,7 +86,7 @@ If you want to contribute to the Open edX repositories, see :doc:`all_developmen
    :hidden:
    :caption: Extending the Open edX platform
 
-   What you can extend <https://github.com/edx/edx-platform/blob/master/docs/guides/extension_points.rst>
+   extending/overview_extending
    Custom course content and beyond: integrating XBlocks with the platform <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/extending_platform/xblocks.html>
    Adding custom JavaScript applications to courses <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/extending_platform/javascript.html>
 

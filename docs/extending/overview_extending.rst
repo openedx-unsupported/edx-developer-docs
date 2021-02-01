@@ -1,9 +1,17 @@
-Options for Extending the edX Platform
---------------------------------------
+#############################
+Overview of extension options
+#############################
 
-Open edX platform development follows the `Open-Closed Principle`_: we want Open edX to be an extensible platform that allows developers to build extensions that integrate with the core of the platform. This allows the core to remain small, while volatile extensions remain in the periphery.
+.. contents::
+   local: 0
 
-As you can see in this document, there are many different ways to integrate with Open edX. However, we know that there are still some features/integrations that are not possible today without modifying the core. If you have such a need, please consider proposing a new extension point in the core that would make possible the functionality you have in mind. When you submit a pull request for a new extension point, be sure to include a change to this file to document your new extension point. (Doing so will also notify reviewers that want to help with making the platform more extensible.)
+************
+Introduction
+************
+
+Open edX platform development follows the `Open-Closed Principle`_: we offer an extensible platform that allows developers to build extensions that integrate with the core. This allows the core to remain small while volatile extensions remain in the periphery.
+
+As you will see in this document, there are many different ways to integrate with Open edX. However, we know that there are still some features and integrations that are not possible today without modifying the core. If you have such a need, please consider proposing a new extension point in the core that would make possible the functionality you have in mind. When you submit a pull request for a new extension point, be sure to include a change to this file to document your new extension point. (Doing so will also notify reviewers that want to help with making the platform more extensible.)
 
 Throughout this document, we will refer to the **Status** (**Adoption** and **Completion**) of each specific integration point. The Completion refers to how complete and stable an integration point is: either "Limited" (incomplete, or unstable) or "Stable" (complete and stable enough for general use in some or all cases). Adoption shows how the integration point is currently being used, and whether or not it should be used in the future:
 
@@ -14,11 +22,13 @@ Throughout this document, we will refer to the **Status** (**Adoption** and **Co
 
 .. _Open-Closed Principle: https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 
-.. contents:: **Integration Methods Overview**
 
 
+
+***********************************************
 REST API Integration with External Applications
-===============================================
+***********************************************
+
 
 *Status: Adopt, Limited*
 
@@ -39,8 +49,9 @@ Be aware that most existing REST APIs are not considered stable, and some platfo
 
 .. _OpenAPI Generator: https://github.com/OpenAPITools/openapi-generator
 
+********************
 Content Integrations
-====================
+********************
 
 If you want to provide learners with new content experiences within courses, options include:
 
@@ -80,8 +91,9 @@ For a more detailed comparison of content integration options, see `Options for 
 
 
 
+*******************************************
 Platform Features (Integrating Python Code)
-===========================================
+*******************************************
 
 If you wish to customize aspects of the learner or educator experiences, you'll most likely need to create a Python plugin that can be installed into the platform and which uses Python APIs to extend the platform's functionality.
 
@@ -113,12 +125,12 @@ Here are the different integration points that python plugins can use:
      - Hold, Stable
      - A course tab plugin adds a new tab shown to learners within a course. ``courseware``, ``course_info``, and ``discussion`` are examples of built-in tab plugins. Read the `course tabs documentation`_ to learn more.
 
-       This API may be changing soon with the new Courseware microfrontend implementation.
+       This API may be changing soon with the new Courseware micro-frontend implementation.
    * - Course tool (``openedx.course_tool``)
      - Hold, Stable
      - The course home page (the landing page for the course) includes a "Course Tools" section that provides links to "tools" associated with the course. Examples of course tool plugins included in the core are reviews, updates, and bookmarks. See |course_tools.py|_ to learn more.
 
-       This API may be changing soon with the new Courseware microfrontend implementation.
+       This API may be changing soon with the new Courseware micro-frontend implementation.
    * - Custom registration form app (``REGISTRATION_EXTENSION_FORM`` Django setting in the LMS)
      - Trial, Stable
      - By default, the registration page for each instance of Open edX has fields that ask for information such as a user’s name, country, and highest level of education completed. You can add custom fields to the registration page for your own Open edX instance. These fields can be different types, including text entry fields and drop-down lists. See `Adding Custom Fields to the Registration Page`_.
@@ -147,18 +159,20 @@ Here are the different integration points that python plugins can use:
 .. |UserPartition docstring| replace:: ``UserPartition`` docstring
 .. _UserPartition docstring: https://github.com/edx/edx-platform/blob/f8cc58618a39c9f7b8e9e1001eb2d7a10395797e/common/lib/xmodule/xmodule/partitions/partitions.py#L105-L120
 
-Platform Look & Feel
-====================
+**********************
+Platform Look and Feel
+**********************
+
 
 Themes ("Comprehensive Theming")
-********************************
+================================
 
 *Status: Hold, Stable*
 
-Changing the look and feel of the edX platform is generally done by creating a new "theme". See `Changing Themes for an Open edX Site`_ for documentation. Note that most theming documentation applies to the legacy UI components used in edX, which are .html files (django/mako templates) rendered by the backend and styled using either the "v1" or "v2" (a.k.a. "Pattern Library") stylesheets. However, the platform UI is slowly being replaced by new React-based "MicroFrontEnds" (MFEs), and a different approach is required for theming MFEs (see `Theming Microfrontends`_).
+Changing the look and feel of the edX platform is generally done by creating a new "theme". See `Changing Themes for an Open edX Site`_ for documentation. Note that most theming documentation applies to the legacy UI components used in edX, which are .html files (django/mako templates) rendered by the backend and styled using either the "v1" or "v2" (a.k.a. "Pattern Library") stylesheets. However, the platform UI is slowly being replaced by new React-based "micro-frontends" (MFEs), and a different approach is required for theming MFEs (see `Theming Micro-frontends`_).
 
-Theming Microfrontends
-**********************
+Theming Micro-frontends
+=======================
 
 *Status: Trial, Limited*
 
@@ -177,9 +191,8 @@ In addition, Open edX operators will be able to replace entire MFEs with complet
 .. _Overriding Brand Specific Elements: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/developers_guide/micro_frontends_in_open_edx.html#overriding-brand-specific-elements
 
 Custom frontends
-****************
+================
 
 *Status: Trial, Limited*
 
 If you need a *very* custom look and feel for your users, and you have the time and resources required for a huge project, you can consider creating a custom frontend for Open edX, which is a completely separate application that runs on its own domain and integrates with Open edX using REST APIs. The edX Mobile App can be thought of as an example of a separate frontend that connects to Open edX using only REST APIs. Another example is `LabXchange <https://www.labxchange.org/>`_. If you develop your custom frontend using Django, you may wish to use the `auth-backends <https://github.com/edx/auth-backends>`_ django plugin for user authentication.
-
