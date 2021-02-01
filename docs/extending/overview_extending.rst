@@ -3,7 +3,8 @@ Overview of extension options
 #############################
 
 .. contents::
-   local: 0
+   :depth: 1
+   :local:
 
 ************
 Introduction
