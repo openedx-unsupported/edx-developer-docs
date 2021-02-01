@@ -1,3 +1,5 @@
+.. copied from edx-documentation/tree/master/en_us/developers/source/extending_platform/xblocks.rst
+
 #####################################
 Integrating XBlocks with edx-platform
 #####################################
@@ -169,10 +171,12 @@ steps.
     #. Edit a unit
     #. Advanced -> your-block
 
+.. link to the XBlock Tutorial changed because now it is external
+
 Note the name ``your-block`` used in Studio must exactly match the key you used
 to add your block to your ``setup.py`` ``entry_points`` list. (If you are still
 discovering XBlocks and simply used the ``workbench-make-new.py`` script as
-described in the :ref:`xblocktutorial:Open edX XBlock Tutorial`, look in the
+described in the `Open edX XBlock Tutorial <https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/>`_, look in the
 ``setup.py`` file that was created.)
 
 *********************
@@ -200,12 +204,15 @@ you use the following URL path for an XBlock on an edX site.
 Finding the ``usage_id``
 ========================
 
+.. link to "Finding the Usage ID for Course Content" changed because now it is external
+
 The ``usage_id`` is the unique identifier for the problem, video, text, or
 other course content component, or for sequential or vertical course container
 component. There are several ways to find the ``usage_id`` for an XBlock in the
 LMS, including viewing either the staff debug info or the page source. For more
-information, see
-:ref:`opencoursestaff:Finding the Usage ID for Course Content`.
+information, see `Finding the Usage ID for Course Content <https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/course_features/lti/lti_address_content.html#finding-the-usage-id-for-course-content>`_.
+
+.. The following section was copied from the file edx-documentation/tree/master/en_us/shared/dev/Section_XBlock_URL.rst.
 
 Example XBlock URLs
 ===================
@@ -217,7 +224,7 @@ course on the edx.org site has the following URL.
 
 This video component appears as follows in the LMS.
 
-.. image:: ../../../shared/images/XBlock_URL_example_before.png
+.. image:: ../images/XBlock_URL_example_before.png
     :alt: A video component presented in the context of the edX LMS, with
         navigational options to reach all other course content.
 
@@ -228,7 +235,7 @@ To construct the XBlock URL for the same video component, you obtain its
 
 When you use this URL, the video component appears in your browser as follows.
 
-.. image:: ../../../shared/images/XBlock_URL_example_after.png
+.. image:: ../images/XBlock_URL_example_after.png
     :alt: A video component presented without any options for accessing other
         course content.
 
