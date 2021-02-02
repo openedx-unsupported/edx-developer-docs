@@ -78,7 +78,8 @@ If you want to contribute to the Open edX repositories, see :doc:`all_developmen
 
 * :doc:`extending/overview_extending`
 * :doc:`extending/xblocks`
-* `Adding custom JavaScript applications to courses <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/extending_platform/javascript.html>`_
+* :doc:`extending/javascript`
+* :doc:`extending/js_template_example`
 
 .. The "JavaScript template" should be a subtopic of "adding custom JS applications."
 
@@ -88,7 +89,8 @@ If you want to contribute to the Open edX repositories, see :doc:`all_developmen
 
    extending/overview_extending
    extending/xblocks
-   Adding custom JavaScript applications to courses <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/extending_platform/javascript.html>
+   extending/javascript
+   extending/js_template_example
 
 Technical reference
 ===================

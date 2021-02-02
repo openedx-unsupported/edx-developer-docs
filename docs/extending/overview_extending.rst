@@ -1,3 +1,5 @@
+.. copied from edx-platform/blob/master/docs/guides/extension_points.rst
+
 #############################
 Overview of extension options
 #############################
@@ -27,7 +29,7 @@ Throughout this document, we will refer to the **Status** (**Adoption** and **Co
 
 
 ***********************************************
-REST API Integration with External Applications
+REST API integration with external applications
 ***********************************************
 
 
@@ -51,7 +53,7 @@ Be aware that most existing REST APIs are not considered stable, and some platfo
 .. _OpenAPI Generator: https://github.com/OpenAPITools/openapi-generator
 
 ********************
-Content Integrations
+Content integrations
 ********************
 
 If you want to provide learners with new content experiences within courses, options include:
@@ -93,7 +95,7 @@ For a more detailed comparison of content integration options, see `Options for 
 
 
 *******************************************
-Platform Features (Integrating Python Code)
+Platform features: integrating Python code
 *******************************************
 
 If you wish to customize aspects of the learner or educator experiences, you'll most likely need to create a Python plugin that can be installed into the platform and which uses Python APIs to extend the platform's functionality.
@@ -161,18 +163,18 @@ Here are the different integration points that python plugins can use:
 .. _UserPartition docstring: https://github.com/edx/edx-platform/blob/f8cc58618a39c9f7b8e9e1001eb2d7a10395797e/common/lib/xmodule/xmodule/partitions/partitions.py#L105-L120
 
 **********************
-Platform Look and Feel
+Platform look and feel
 **********************
 
 
-Themes ("Comprehensive Theming")
+Themes ("comprehensive theming")
 ================================
 
 *Status: Hold, Stable*
 
 Changing the look and feel of the edX platform is generally done by creating a new "theme". See `Changing Themes for an Open edX Site`_ for documentation. Note that most theming documentation applies to the legacy UI components used in edX, which are .html files (django/mako templates) rendered by the backend and styled using either the "v1" or "v2" (a.k.a. "Pattern Library") stylesheets. However, the platform UI is slowly being replaced by new React-based "micro-frontends" (MFEs), and a different approach is required for theming MFEs (see `Theming Micro-frontends`_).
 
-Theming Micro-frontends
+Theming micro-frontends
 =======================
 
 *Status: Trial, Limited*

@@ -28,7 +28,7 @@ LMS
 ***
 
 
-Runtime Features
+Runtime features
 ================
 
 These are properties and methods available on ``self.runtime`` when a view or
@@ -55,7 +55,7 @@ In the future, these are likely to become more formal XBlock services (one
 related to users, and the other to event publishing).
 
 
-Class Features
+Class features
 ================
 
 These are class attributes or functions that can be provided by an XBlock to
@@ -104,7 +104,7 @@ Studio
 ******
 
 
-Class Features
+Class features
 ================
 
 * studio_view (XBlock.view): The view used to render an editor in Studio. The
@@ -180,7 +180,7 @@ described in the `Open edX XBlock Tutorial <https://edx.readthedocs.io/projects/
 ``setup.py`` file that was created.)
 
 *********************
-Deploying Your XBlock
+Deploying your XBlock
 *********************
 
 To deploy your block to your own hosted version of edx-platform, you need to
@@ -201,7 +201,7 @@ you use the following URL path for an XBlock on an edX site.
 
 ``https://{host}/xblock/{usage_id}``
 
-Finding the ``usage_id``
+Finding the usage ID
 ========================
 
 .. link to "Finding the Usage ID for Course Content" changed because now it is external
@@ -224,7 +224,7 @@ course on the edx.org site has the following URL.
 
 This video component appears as follows in the LMS.
 
-.. image:: ../images/XBlock_URL_example_before.png
+.. image:: ../images/extending/XBlock_URL_example_before.png
     :alt: A video component presented in the context of the edX LMS, with
         navigational options to reach all other course content.
 
@@ -235,7 +235,7 @@ To construct the XBlock URL for the same video component, you obtain its
 
 When you use this URL, the video component appears in your browser as follows.
 
-.. image:: ../images/XBlock_URL_example_after.png
+.. image:: ../images/extending/XBlock_URL_example_after.png
     :alt: A video component presented without any options for accessing other
         course content.
 
