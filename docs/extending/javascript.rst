@@ -35,7 +35,7 @@ edX Course <http://edx.readthedocs.io/projects/edx-partner-course-staff/en/lates
 
 * `Custom JavaScript Display and Grading <http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_javascript.html>`_
 
-* `Establishing a Grading Policy <http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/graing/index.html>`_
+* `Establishing a Grading Policy <http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/grading/index.html>`_
 
 The rest of this section provides more information for developers who are
 creating JavaScript applications for courses on the edX platform.
