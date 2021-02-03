@@ -97,6 +97,14 @@ autosectionlabel_prefix_document = True
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
+def edx_rtd_url(slug):
+    """Use this with the readthedoc project slug to create the full URL."""
+    return f"https://edx.readthedocs.io/projects/{slug}/en/latest/"
+
+intersphinx_mapping = {
+    "openreleasenotes" : (edx_rtd_url("open-edx-release-notes"), None),
+}
+
 # -- Options for HTML output ----------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

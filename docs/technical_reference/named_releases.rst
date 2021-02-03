@@ -26,7 +26,7 @@ All Open edX Releases
 
 Note that the latest release is the only supported release. We currently do not have the ability to support more than one release at a time.
 
-For documentation on the latest release, please visit http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/
+For documentation on the latest release, please visit the :doc:`openreleasenotes:index`.
 
 Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes destined for that release (``open-release/ginkgo.master``, ``open-release/hawthorn.master``, etc).  Periodically, we tag that branch (``open-release/hawthorn.1``, ``open-release/hawthorn.2``, etc).  After a few releases, we might still add important fixes to the branch, but not make a new tagged release.  At that point, someone installing that line will want to install from the branch, not the tags.
 
@@ -38,7 +38,7 @@ Koa
 
 * **Code cut date:** 2020-11-12
 * **Status:** supported
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/koa.html>`__
+* :doc:`Release Notes <openreleasenotes:koa>`
 
 .. list-table::
    :header-rows: 1
@@ -56,7 +56,7 @@ Juniper
 
 * **Code cut date:** 2020-05-27
 * **Status:** unsupported
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/juniper.html>`__
+* :doc:`Release Notes <openreleasenotes:juniper>`
 
 .. list-table::
    :header-rows: 1
@@ -82,7 +82,7 @@ Ironwood
 
 * **Code cut date:** 2019-01-17
 * **Status:** unsupported
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/ironwood.html>`__
+* :doc:`Release Notes <openreleasenotes:ironwood>`
 
 .. list-table::
    :header-rows: 1
@@ -109,7 +109,7 @@ Hawthorn
 * **Code cut date:** 2018-07-03
 * **Status:** unsupported
 * **Note:** Devstack is now based on Docker.
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html>`__
+* :doc:`Release Notes <openreleasenotes:hawthorn>`
 
 .. list-table::
    :header-rows: 1
@@ -140,7 +140,7 @@ A note about Vagrant box files:
 * **Code cut date:** 2017-07-06
 * **Status:** unsupported
 * **Latest:** open-release/ginkgo.master
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/ginkgo.html>`__
+* :doc:`Release Notes <openreleasenotes:ginkgo>`
 
 .. list-table::
    :header-rows: 1
@@ -176,7 +176,7 @@ Ficus
 * **Code cut date:** 2017-01-10
 * **Status:** unsupported
 * **Latest:** open-release/ficus.master
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/ficus.html>`__
+* :doc:`Release Notes <openreleasenotes:ficus>`
 
 .. list-table::
    :header-rows: 1
@@ -232,7 +232,7 @@ Eucalyptus
 * **Code cut date:** 2016-07-13
 * **Status:** unsupported
 * **Latest:** open-release/eucalyptus.master
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/eucalyptus.html>`__
+* :doc:`Release Notes <openreleasenotes:eucalyptus>`
 
 .. list-table::
    :header-rows: 1
@@ -274,7 +274,7 @@ Dogwood
 * **Code cut date:** 2015-12-15
 * **Status:** unsupported
 * **Latest:** named-release/dogwood.rc
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/dogwood.html>`__
+* :doc:`Release Notes <openreleasenotes:dogwood>`
 
 .. list-table::
    :header-rows: 1
@@ -322,7 +322,7 @@ Cypress
 * **Code cut date:** 2015-07-07
 * **Status:** unsupported
 * **Latest:** named-release/cypress.rc
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/cypress.html>`__
+* :doc:`Release Notes <openreleasenotes:cypress>`
 
 .. list-table::
    :header-rows: 1
@@ -344,7 +344,7 @@ Birch
 * **Code cut date:** 2015-01-29
 * **Status:** unsupported
 * **Latest:** named-release/birch.rc
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/birch.html>`__
+* :doc:`Release Notes <openreleasenotes:birch>`
 
 .. list-table::
    :header-rows: 1
@@ -377,7 +377,7 @@ Aspen
 
 * **Code cut date:** 2014-09-05
 * **Status:** unsupported
-* `Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/aspen.html>`__
+* Release notes: Not available
 
 .. list-table::
    :header-rows: 1
