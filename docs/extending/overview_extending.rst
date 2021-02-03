@@ -90,8 +90,6 @@ If you want to provide learners with new content experiences within courses, opt
 .. _XBlock tutorial: https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/
 .. _as a consumer: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/lti_component.html
 .. _as a provider: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/lti/
-.. _Options for Extending the edX Platform: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/extending_platform/extending.html
-.. _custom JavaScript application: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/extending_platform/javascript.html
 .. _external grader documentation: https://edx.readthedocs.io/projects/open-edx-ca/en/latest/exercises_tools/external_graders.html
 .. _You can follow this guide to install and enable custom TinyMCE plugins: extensions/tinymce_plugins.rst
 
