@@ -5,7 +5,7 @@ Overview of extension options
 #############################
 
 .. contents::
-   :depth: 1
+   :depth: 2
    :local:
 
 ************
@@ -67,13 +67,13 @@ If you want to provide learners with new content experiences within courses, opt
      - Details
    * - **XBlocks**
      - Adopt, Stable
-     - XBlocks are python plugins specific to Open edX that get installed into edx-platform and can be used to build courses. An XBlock defines a new *type* of interactive component, and authors can then create many instances of that content type in their courses (each with different settings and content). If you only need to support Open edX, XBlocks provide the best user experience. Open edX operators must install an XBlock into their Open edX instance before it can be used. See the `XBlock tutorial`_ to learn more about XBlocks.
+     - XBlocks are python plugins specific to Open edX that get installed into edx-platform and can be used to build courses. An XBlock defines a new *type* of interactive component, and authors can then create many instances of that content type in their courses (each with different settings and content). If you only need to support Open edX, XBlocks provide the best user experience. Open edX operators must install an XBlock into their Open edX instance before it can be used. See :doc:`xblocks` and the `XBlock tutorial`_ to learn more about XBlocks.
    * - **LTI**
      - Adopt, Stable
      - Learning Tools Interoperability is a standard that allows an individual piece of learnable/interactive content (the "tool") to be embedded via an IFrame in a host Learning Platform (the "consumer") such as Open edX. Open edX supports LTI content in both directions: `as a consumer`_ (external content appearing in an Open edX course) and `as a provider`_ (Open edX course content appearing in an external Learning Platform). If you need to support multiple Learning Platforms, and not just Open edX, LTI is usually the best way to integrate your content. Note that not all LTI versions/features are supported, however.
    * - **Custom JavaScript Applications**
      - Adopt, Stable
-     - If you have a single piece of content, such as a single interactive HTML5 animation or problem, and you want to use it in an Open edX course, you can create it as a `custom JavaScript application`_. Unlike XBlocks, these applications can be implemented without intervention by the Open edX operator.
+     - If you have a single piece of content, such as a single interactive HTML5 animation or problem, and you want to use it in an Open edX course, you can create it as a :doc:`JavaScript application <javascript>`. Unlike XBlocks, these applications can be implemented without intervention by the Open edX operator.
    * - **External Graders**
      - Hold, Stable
      - An external grader is a service that receives learner responses to a problem, processes those responses, and returns feedback and a problem grade to the edX platform. You build and deploy an external grader separately from the edX platform. An external grader is particularly useful for software programming courses where learners are asked to submit complex code. See the `external grader documentation`_ for details.
@@ -81,7 +81,11 @@ If you want to provide learners with new content experiences within courses, opt
      - Trial, Limited
      - TinyMCE's functionality can be extended with so-called Plugins. Custom TinyMCE plugins can be particularly useful for serving certain content in courses that isn't available yet; they can also be used to facilitate the educator's work. `You can follow this guide to install and enable custom TinyMCE plugins`_.
 
-For a more detailed comparison of content integration options, see `Options for Extending the edX Platform`_ in the *Open edX Developer's Guide*.
+.. For a more detailed comparison of content integration options, see `Options for Extending the edX Platform`_ in the *Open edX Developer's Guide*.
+
+.. Removing the link to 'Options for extending the platform' since that's the purpose of THIS topic. The 'Options' document is a comparison matrix that rightfully belongs in here, assuming it's current.
+
+.. "Custom JavaScript Application" is a topic within this section.
 
 .. _XBlock tutorial: https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/
 .. _as a consumer: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/lti_component.html
