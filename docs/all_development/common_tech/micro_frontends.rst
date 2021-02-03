@@ -1,3 +1,5 @@
+.. _Micro-frontend applications (MFEs):
+
 ##################################
 Micro-frontend applications (MFEs)
 ##################################
