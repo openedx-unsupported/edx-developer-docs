@@ -1,8 +1,8 @@
 .. copied from edx-platform/blob/master/docs/guides/extension_points.rst
 
-#############################
-Overview of extension options
-#############################
+###############################
+Extension options: an overview
+###############################
 
 .. contents::
    :depth: 2
@@ -174,7 +174,9 @@ Themes ("comprehensive theming")
 
 *Status: Hold, Stable*
 
-Changing the look and feel of the edX platform is generally done by creating a new "theme". See `Changing Themes for an Open edX Site`_ for documentation. Note that most theming documentation applies to the legacy UI components used in edX, which are .html files (django/mako templates) rendered by the backend and styled using either the "v1" or "v2" (a.k.a. "Pattern Library") stylesheets. However, the platform UI is slowly being replaced by new React-based "micro-frontends" (MFEs), and a different approach is required for theming MFEs (see `Theming Micro-frontends`_).
+Changing the look and feel of the Open edX platform is generally done by creating a new "theme". See `Changing Themes for an Open edX Site`_ for documentation. Note that most theming documentation applies to the legacy UI components used in edX, which are .html files (django/mako templates) rendered by the backend and styled using either the "v1" or "v2" (a.k.a. "Pattern Library") stylesheets.
+
+However, the platform UI is slowly being replaced by new React-based "micro-frontends" (MFEs). See :doc:`<all_development/common_tech/micro_frontends>`. A different approach is required for theming MFEs (see `Theming Micro-frontends`_).
 
 Theming micro-frontends
 =======================

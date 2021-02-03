@@ -79,7 +79,6 @@ If you want to contribute to the Open edX repositories, see :doc:`all_developmen
 * :doc:`extending/overview_extending`
 * :doc:`extending/xblocks`
 * :doc:`extending/javascript`
-* :doc:`all_development/common_tech/micro_frontends`
 
 .. The "JavaScript template" should be a subtopic of "adding custom JS applications."
 
@@ -90,7 +89,6 @@ If you want to contribute to the Open edX repositories, see :doc:`all_developmen
    extending/overview_extending
    extending/xblocks
    extending/javascript
-   all_development/common_tech/micro_frontends
 
 Technical reference
 ===================
