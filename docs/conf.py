@@ -36,6 +36,7 @@ VERSION = '1.0.0'
 # ones.
 extensions = [
     'edx_theme',
+    'sphinx.ext.autosectionlabel',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.ifconfig',
@@ -90,9 +91,11 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
+# Adds files to auto-labels for sections (e.g. :ref:`path/to/file:Section title`)
+autosectionlabel_prefix_document = True
+
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
-
 
 # -- Options for HTML output ----------------------------------------------
 
