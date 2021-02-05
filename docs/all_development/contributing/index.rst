@@ -28,7 +28,8 @@ Before you write code:
 * Collaboration
 * Open Source
 * UX/Design/Front End Development
-* Contributing to the Documentation for Your Open Source Feature
+* :doc:`dev_docs`
+* :doc:`finding_help`
 
 Opening a pull request:
 
@@ -37,6 +38,13 @@ Opening a pull request:
 * Further Information
 * Pull Request Cover Letter
 * Example Of A Good PR Cover Letter
+
+.. toctree::
+   :hidden:
+   :caption: Information for all Open edX developers
+
+   dev_docs
+   finding_help
 
 Community Manager
 =================
