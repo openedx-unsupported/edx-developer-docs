@@ -101,7 +101,7 @@ Review this information at your leisure.
      - Confluence page for notes, thoughts, and project-related documents on Open edX architecture and engineering.
    * - `Open edX glossary <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/glossary.html>`_
      - Glossary of terms unique to the Open edX environment.
-   * - :doc:`Supported browsers <universal_stub>`
+   * - :doc:`technical_reference/browser_support`
      - Supported browsers
    * - :doc:`technical_reference/named_releases`
      - Named releases
@@ -112,7 +112,7 @@ Review this information at your leisure.
 
    Architecture and engineering Confluence information hub <https://openedx.atlassian.net/wiki/spaces/AC/overview>
    Open edX glossary <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/glossary.html>
-   Supported browsers <universal_stub>
+   technical_reference/browser_support
    technical_reference/named_releases
 
 
@@ -120,19 +120,11 @@ Review this information at your leisure.
 Information for other user groups
 =================================
 
-* :doc:`Course authoring teams <universal_stub>`
-* :doc:`System administrators <universal_stub>`
-* :doc:`Researchers <universal_stub>`
-* :doc:`Open edX partners <universal_stub>`
-* :doc:`Learners <universal_stub>`
+If your tasks include system administration, course authoring, or anything outside of software development, review the options on `Documentation for edx.org and the Open edX community <http://docs.edx.org>`_.
 
 
 .. toctree::
    :hidden:
    :caption: Information for other user groups
 
-   Course authoring teams <universal_stub>
-   System administrators <universal_stub>
-   Researchers <universal_stub>
-   Open edX partners <universal_stub>
-   Learners <universal_stub>
+   Documentation for edx.org and the Open edX community <http://docs.edx.org>
