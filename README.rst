@@ -56,12 +56,12 @@ otherwise noted.
 
 Please see ``LICENSE.txt`` for details.
 
-How To Contribute
------------------
+How To Contribute To This Repository
+-------------------------------------
 
 Contributions are very welcome.
 
-Please read `How To Contribute <https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst>`_ for details.
+Please read :ref:`Contributing to Open edX developer documentation` for details.
 
 Even though they were written with ``edx-platform`` in mind, the guidelines
 should be followed for Open edX code in general.
