@@ -2,3 +2,4 @@
 
 -r pip-tools.txt          # pip-tools and its dependencies, for managing requirements files
 -r travis.txt             # tox and related dependencies
+-r doc.txt                # documentation related dependencies
