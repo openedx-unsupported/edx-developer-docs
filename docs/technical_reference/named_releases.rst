@@ -1,5 +1,5 @@
 #######################
-Open edX Named Releases
+Named releases
 #######################
 
 The Open edX community can share knowledge and improvements more easily when most people use the same stable, consistent version of the Open edX codebase. To that end, edX creates "Open edX named releases", which are distinct from the daily deployments to edx.org and have a longer release cycle (on the order of six months between each release). These releases will be tested both by edX and by the Open edX community.
