@@ -2,11 +2,11 @@
 
 .. _Preventing XSS:
 
-###############################################
-Preventing Cross Site Scripting Vulnerabilities
-###############################################
+#####################################################
+Preventing cross site scripting vulnerabilities (XSS)
+#####################################################
 
-Cross Site Scripting (XSS) vulnerabilities allow user-supplied data to be
+Cross site scripting (XSS) vulnerabilities allow user-supplied data to be
 incorrectly executed as code in a web browser. It can be difficult to write code
 that is safe from XSS security vulnerabilities. This section presents best
 practices for handling proper escaping in the Open edX platform to avoid these
@@ -19,8 +19,8 @@ vulnerabilities.
    :depth: 1
    :local:
 
-
-Philosophy and General Rules
+****************************
+Philosophy and general rules
 ****************************
 
 The philosophy behind the recommendations in this section is to make things as
@@ -55,15 +55,15 @@ Here are some general rules.
    all the places that the data will be used, you must wait until you have
    the proper context to decide on the proper escaping.
 
-
-Types of Context and Escaping
+*****************************
+Types of context and escaping
 *****************************
 
 .. contents::
    :depth: 1
    :local:
 
-Overview of Contexts
+Overview of contexts
 ====================
 
 The following diagram provides a high-level overview of the relationship
@@ -124,13 +124,13 @@ Descriptions of each numbered arrow in the diagram follow.
    attributes are being written any plain text must be properly HTML-escaped.
 
 
-HTML Context and Escaping
+HTML context and escaping
 =========================
 
 The outermost context of an HTML file is HTML. In an HTML context inside an
 HTML file, data is kept safe by HTML-escaping.
 
-How HTML-Escaping Makes HTML Safe
+How HTML escaping makes HTML safe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. highlight:: mako
@@ -183,20 +183,20 @@ The resulting safe page source is as follows.
 This time, the browser will not interpret the ``<script>`` tag as a JavaScript
 context, and instead simply displays the original string in the page.
 
-Stripping HTML Tags
+Stripping HTML tags
 ~~~~~~~~~~~~~~~~~~~
 
 See :ref:`Preventing XSS by Stripping HTML Tags` for help with stripping HTML tags, which can be useful in cases where you want to remove certain tags rather than having them appear escaped.
 
 
-JavaScript Context and Escaping
+JavaScript context and escaping
 ===============================
 
 The outermost context of a JavaScript file is JavaScript. An HTML file also
 contains a JavaScript context inside a `<script>` tag. Inside a JavaScript
 context, data is kept safe by JavaScript-escaping.
 
-How JavaScript-Escaping Makes HTML Safe
+How JavaScript escaping makes HTML safe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Here is an example of an expression used in a valid JavaScript context. It is
@@ -262,7 +262,7 @@ The code above would produce the following safe page source.
 
 .. _CSS Context:
 
-CSS Context and Escaping
+CSS context and escaping
 ========================
 
 The browser treats any code inside a ``<style>`` tag or ``style`` attribute in
@@ -293,7 +293,7 @@ For more information, see
 
 .. _URL Context:
 
-URL Context and Escaping
+URL context and escaping
 ========================
 
 URLs require multiple types of escaping. This typically involves URL-escaping
@@ -337,7 +337,8 @@ supply a URL that uses the "javascript" protocol as an example.
 For more information, see `OWASP: URL Escape <https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_.235_-_URL_Escape_Before_Inserting_Untrusted_Data_into_HTML_URL_Parameter_Values>`_.
 
 
-Editing Template Files
+**********************
+Editing template files
 **********************
 
 When you edit template files (including Mako templates, Underscore templates,
@@ -350,7 +351,8 @@ The topics that follow address these points for each type of file.
 #. How is code properly escaped? The answer is different depending on the
    templating language and the context.
 
-#. How do you properly handle internationalization and escaping together? For
+.. TODO: check reference after decision made on i18n material
+.. #. How do you properly handle internationalization and escaping together? For
    more information, see :ref:`i18n`.
 
 .. note:: Remember to take into account the type of file in addition to the
@@ -366,7 +368,7 @@ type below.
 
 .. _Safe Django Template Files:
 
-Django Template Files
+Django template files
 =====================
 
 .. highlight:: django
@@ -376,7 +378,7 @@ See :ref:`Preventing XSS in Django Templates`.
 
 .. _Safe Mako Template Calls:
 
-Mako Template() Calls in Python Files
+Mako template() calls in Python files
 =====================================
 
 .. highlight:: mako
@@ -394,7 +396,7 @@ safe by default (i.e. use HTML-escaping by default).
 
 .. _Safe Mako Template Files:
 
-Mako Template Files
+Mako template files
 ===================
 
 This topic covers the best practices for protecting Mako template files from
@@ -411,12 +413,12 @@ that you complete the following steps.
 
 .. _HTML-Escape Mako by Default:
 
-HTML-Escape by Default in Mako
+HTML escape by default in Mako
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. highlight:: mako
 
-For Mako templates, all expressions use HTML-escaping by default. This is
+For Mako templates, all expressions use HTML escaping by default. This is
 accomplished by adding the following directive to the very top of each
 template. ::
 
@@ -439,7 +441,7 @@ the first filter. This can be seen in some of the examples below.
 
 For a more in depth understanding of ``n`` filters, see :ref:`n Filter`.
 
-Determining the Context in Mako
+Determining the context in Mako
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Most of the Mako template files are in an HTML context. That is why
@@ -458,7 +460,7 @@ tag or style attribute.
 
 .. _HTML Context in Mako:
 
-HTML Context in Mako
+HTML context in Mako
 ~~~~~~~~~~~~~~~~~~~~
 
 Most Mako expressions in an HTML context will already be properly HTML-escaped.
@@ -516,8 +518,8 @@ following example for how to import and use these functions.
 For a deeper understanding of why you must use ``Text()`` when using ``HTML()``,
 see :ref:`Why Text() with HTML()`.
 
-For more details about translating strings and ensuring proper escaping, see
-:ref:`i18n`.
+.. TODO: check reference after decision made on i18n material
+.. For more details about translating strings and ensuring proper escaping, see :ref:`i18n`.
 
 There are times where a block of HTML is retrieved using a function in a Mako
 expression, such as in the following example.
@@ -537,7 +539,7 @@ function returning the HTML has itself properly escaped any plain text.
 
 .. _JavaScript Context in Mako:
 
-JavaScript Context in Mako
+JavaScript context in Mako
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As a general guideline, JavaScript in Mako templates should be kept to an
@@ -572,7 +574,8 @@ JavaScript context.
 Here is an example of how to import and use ``js_escaped_string`` and
 ``dump_js_escaped_json`` in the context of JavaScript in a Mako template.
 
-.. code-block::
+.. TODO: fix whatever is causing Pygments not to like this code sample.Neither removing the language nor changing it to "none" addresses the problem.
+.. code-block:: mako
 
     <%namespace name='static' file='static_content.html'/>
     <%!
@@ -599,7 +602,7 @@ more complicated JavaScript code, you should additionally follow the best
 practices documented for :ref:`Safe JavaScript Files`.
 
 
-URL Context in Mako
+URL context in Mako
 ~~~~~~~~~~~~~~~~~~~
 
 To properly URL-escape in Python, you can use `the urllib package
@@ -608,7 +611,7 @@ To properly URL-escape in Python, you can use `the urllib package
 For more details about URLs, see :ref:`URL Context`.
 
 
-Mako Defs
+Mako defs
 ~~~~~~~~~
 
 In a Mako ``%def`` we encounter one of the rare cases where we need to turn off
@@ -638,7 +641,7 @@ For more information, see `Mako: Defs and Blocks <http://docs.makotemplates.org/
 
 .. _Safe JavaScript Files:
 
-JavaScript Files
+JavaScript files
 ================
 
 .. _Safe React Files:
@@ -850,7 +853,8 @@ For more details about using the ``HtmlUtils`` utility functions, see
 
 .. _Making Mako Templates Safe By Default:
 
-Making Legacy Mako Templates Safe by Default
+********************************************
+Making legacy Mako templates safe by default
 ********************************************
 
 .. highlight:: mako
@@ -893,7 +897,7 @@ edX portal .
 
 .. _Set HTML Escaping Filter as Default:
 
-Set HTML-Escaping Filter as Default
+Set HTML-Escaping filter as default
 ===================================
 
 Start by adding the following line to the very top of your Mako template.
@@ -909,7 +913,7 @@ cause issues for certain expressions, including HTML that cannot be escaped.
 Also, be careful not to have multiple ``<%page>`` tags in a Mako template.
 
 
-Run the XSS Linter
+Run the XSS linter
 ==================
 
 After setting HTML-escaping by default for the Mako template, run the XSS Linter
@@ -924,7 +928,7 @@ after fixing all violations.
 
 For more detailed instructions on using the linter, see :ref:`XSS Linter`.
 
-Fix Downstream JavaScript and Underscore.js Templates
+Fix downstream JavaScript and Underscore.js templates
 =====================================================
 
 Because Mako templates only generate the initial page source, you should
@@ -940,7 +944,8 @@ For help navigating our client side code, see
 
 .. _XSS Linter:
 
-XSS Linter
+**********
+XSS linter
 **********
 
 The XSS linter is a tool to help you make sure that you are following best
@@ -1006,10 +1011,10 @@ edX portal.
 
 .. _Disabling Linter Violations:
 
-Disabling Violations
-====================
+Disabling linter violations
+===========================
 
-If you need to disable a violation, add the following disable pragma to a
+If you need to disable a linter violation, add the following disable pragma to a
 comment at the start of the line before the violation, or at the end of the
 first line of the violation. Use the comment syntax appropriate to the file you
 are editing.
@@ -1028,7 +1033,7 @@ Here is example syntax for an Underscore.js template.
 
 .. _Linter Violations:
 
-Linter Violations
+Linter violations
 =================
 
 The following topics explain the meaning of each violation ID and what you must
@@ -1685,7 +1690,7 @@ not escape is when making an ``HtmlUtils`` call.
 
 For more details, see :ref:`Safe Underscorejs Template Files`.
 
-Advanced Topics
+Advanced topics
 ***************
 
 The following advanced topics cover rare cases and provide a more in-depth
@@ -1697,7 +1702,7 @@ vulnerabilities.
    :local:
 
 
-Why Use Both ``js_escaped_string`` and ``dump_js_escaped_json``?
+Why use both ``js_escaped_string`` and ``dump_js_escaped_json``?
 ==================================================================
 
 To escape strings in Mako templates, why must we use ``dump_js_escaped_json``
@@ -1710,7 +1715,7 @@ in addition to using ``js_escaped_string``?
 
 .. _n Filter:
 
-Mako Filter Ordering and the ``n`` Filter
+Mako filter ordering and the ``n`` filter
 =========================================
 
 Mako executes any default filter before it executes filters that are added
@@ -1752,7 +1757,7 @@ Python code is the result.
 For more information, see `Mako: Expression Filtering <http://docs.makotemplates.org/en/latest/filtering.html>`_.
 
 
-Mako Blocks
+Mako blocks
 ===========
 
 A Mako ``%block`` can sometimes create tricky situations where the context is
@@ -1784,7 +1789,7 @@ For more information, see `Mako: Defs and Blocks <http://docs.makotemplates.org/
 
 .. _Strings with JSON:
 
-Strings Containing JSON in Mako
+Strings containing JSON in Mako
 ===============================
 
 In the same way that we wait as long as possible to escape, once we know the
@@ -1812,7 +1817,7 @@ two options.
 
 .. _Why Text() with HTML():
 
-Why Do I Need Text() with HTML()?
+Why Do I need Text() with HTML()?
 =================================
 
 You might wonder why the ``Text()`` function is required in Mako templates to
@@ -1870,7 +1875,8 @@ HTML-escaped, when your intention was to keep the HTML from being HTML-escaped.
 
 .. _Preventing XSS Additional Resources:
 
-Additional Resources
+********************
+Additional resources
 ********************
 
 To learn more about XSS in general, see the following references.

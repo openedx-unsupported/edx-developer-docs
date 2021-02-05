@@ -38,6 +38,13 @@ Opening a pull request:
 * Pull Request Cover Letter
 * Example Of A Good PR Cover Letter
 
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Contributor
+
+   security/index
+
 Community Manager
 =================
 

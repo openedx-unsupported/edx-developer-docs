@@ -2,7 +2,7 @@
 
 .. _Preventing XSS by Stripping HTML Tags:
 
-Preventing XSS by Stripping HTML Tags
+Preventing XSS by stripping HTML tags
 =====================================
 
 .. contents::

@@ -13,7 +13,7 @@ The two places where you need to be more careful, include:
 
 2. Handling i18n and translations.
 
-i18n and Translations
+i18n and translations
 ---------------------
 
 If you use the library react-intl, it provides several components for handling messages; some are safe and some are not.
@@ -43,7 +43,7 @@ Use FormattedMessage for safe translations.  The messages and translated message
       }}
     />
 
-Don't Use FormattedHTMLMessage
+Don't use FormattedHTMLMessage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 FormattedHTMLMessage uses dangerouslySetInnerHTML behind the scenes.  It is meant to work with legacy strings that are safe and contain HTML, but it is never safe.  Even if the default message is safe, we can't ensure that a translator doesn't input some unsafe text in the translation.
@@ -56,8 +56,8 @@ FormattedHTMLMessage uses dangerouslySetInnerHTML behind the scenes.  It is mean
       defaultMessage={ `<img src='x' onError="alert('Bad bad!')" />` }
     />
 
-Alternative Message Components
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Alternative message components
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you run into a use case that cannot be resolved via FormattedMessage, you can explore some of the following:
 
