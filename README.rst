@@ -14,6 +14,40 @@ Documentation
 
 The full documentation is at https://edx-developer-docs.readthedocs.org.
 
+Testing
+-------
+
+To test documentation changes locally, run through the following.
+
+Install the requirements inside of a `Python virtualenv`_.
+
+.. code:: sh
+
+   make requirements
+
+Then run all tests as they will be run against your PR.
+
+.. code:: sh
+
+   make test-all
+
+Note: Look for warnings, which will not fail the test but are useful to clean up.
+
+Alternatively, build the docs which should load them in your browser.
+
+.. code:: sh
+
+  make docs
+
+Lastly, if you want to test external links (from the docs directory).
+
+.. code:: sh
+
+  cd docs
+  make linkcheck
+
+.. _Python virtualenv: https://docs.python-guide.org/en/latest/dev/virtualenvs/#lower-level-virtualenv
+
 License
 -------
 
