@@ -2,47 +2,10 @@
 Contributing to Open edX code and documentation
 ###############################################
 
-Overview
-========
+.. removed most bullets pending rework of contributor role responsibilities by Ned and Nimisha, review of some content by other developers
 
-General Guidelines
-==================
-
-Contribution Roles and Tasks
-============================
-
-Contributor
-===========
-
-Before you write code:
-
-* Writing Good Code
+* Writing good code
 * Internationalization
 * Accessibility
-* Security Principles
-* Operational Impact
-* Documentation/Training/Support
-* Development
-* Testing
 * Analytics
-* Collaboration
-* Open Source
-* UX/Design/Front End Development
-* Contributing to the Documentation for Your Open Source Feature
-
-Opening a pull request:
-
-
-* Once A PR is Open
-* Further Information
-* Pull Request Cover Letter
-* Example Of A Good PR Cover Letter
-
-Community Manager
-=================
-
-Product Owner
-=============
-
-Core Committer Program
-======================
+* Language style guidelines
