@@ -15,3 +15,7 @@ Open edX domains in a nutshell
 To ensure that you can create the extensions you want without having to modify a core that is in widespread use, edX uses the model of development illustrated below:
 
 .. image:: /images/arch_and_design/core_and_extensions.png
+
+The data sources on which the domains draw are illustrated below:
+
+.. image:: /images/arch_and_design/data_sources_of_truth.png

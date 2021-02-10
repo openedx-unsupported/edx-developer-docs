@@ -14,4 +14,6 @@ Open edX domains: components, services, and data
 
 *Notes for the slide for the technical services image has some GitHub links I want to bring over.*
 
-.. image:: /images/arch_and_design/data_sources_of_truth.png
+The Open edX domains frequently use external services as shown in the following image:
+
+.. image:: /images/arch_and_design/external_services.png
