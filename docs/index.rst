@@ -50,7 +50,7 @@ writing code.
 
    * - :doc:`all_development/roadmap/index`
      - Recommended setup for development, testing, and deployment.
-   * - :doc:`all_development/common_tech/index`
+   * - :doc:`all_development/arch_and_design/index`
      - Common elements shared by core platform and extension work.
    * - :doc:`all_development/contributing/index`
      - If you want to contribute to Open edX code or documentation, review these topics.
@@ -63,7 +63,7 @@ writing code.
    :caption: Information for all Open edX developers
 
    all_development/roadmap/index
-   all_development/common_tech/index
+   all_development/arch_and_design/index
    all_development/contributing/index
    Open edX proposals <https://open-edx-proposals.readthedocs.io/en/latest/>
 
