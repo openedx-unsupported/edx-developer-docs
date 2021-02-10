@@ -1,6 +1,6 @@
 .. from slide 9 of the Arch Onboarding V4 Technical System slide deck
 
-.. .. _Open edX domains: components and services:
+.. _Open edX domains more info:
 
 #################################################
 Open edX domains: components, services, and data

@@ -1,9 +1,9 @@
 .. from slide 5 of the Arch Onboarding V4 Technical System slide deck
 
-.. .. _Major components of the Open edX system:
+.. _Open edX domains introduction:
 
 ########################################
-Open edX domains in a nutshell
+Open edX domains: an introduction
 ########################################
 
 .. image:: /images/arch_and_design/overall_puzzle_piece.png

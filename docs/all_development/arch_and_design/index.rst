@@ -7,10 +7,9 @@ Information in the topics below is pertinent to both core and extension work.
 Basic concepts
 ===============
 
-.. * :ref:`Major components of the Open edX system`
-
-* :doc:`basic_concepts/domains_nutshell`
-* :doc:`basic_concepts/domains_more_info`
+* :ref:`Open edX domains introduction`
+* :ref:`Open edX domains more info`
+* :ref:`Authentication and authorization`
 * `Analytics <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html>`_
 
 
@@ -21,4 +20,5 @@ Basic concepts
 
    basic_concepts/domains_nutshell
    basic_concepts/domains_more_info
+   authentication_authorization/index
    Analytics <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html>
