@@ -19,9 +19,10 @@ below.
 * `LMS`_
 * `Studio`_
 * `Testing`_
-* `Deploying your XBlock`_
 
 You can also render an individual XBlock in HTML; see `Rendering XBlocks with the XBlock URL`_ .
+
+When you're ready to deploy, see `Deploying your XBlock`_.
 
 ***
 LMS
@@ -176,7 +177,7 @@ steps.
 Note the name ``your-block`` used in Studio must exactly match the key you used
 to add your block to your ``setup.py`` ``entry_points`` list. (If you are still
 discovering XBlocks and simply used the ``workbench-make-new.py`` script as
-described in the `Open edX XBlock Tutorial <https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/>`_, look in the
+described in the :ref:`Open edX XBlock Tutorial`, look in the
 ``setup.py`` file that was created.)
 
 *********************
