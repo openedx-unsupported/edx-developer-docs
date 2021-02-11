@@ -103,7 +103,8 @@ def edx_rtd_url(slug):
 
 intersphinx_mapping = {
     "openreleasenotes" : (edx_rtd_url("open-edx-release-notes"), None),
-    "building_running_course" : (edx_rtd_url("open-edx-building-and-running-a-course"), None)
+    "building_running_course" : (edx_rtd_url("open-edx-building-and-running-a-course"), None),
+    "xblock_tutorial" : (edx_rtd_url("xblock-tutorial"), None)
 }
 
 # -- Options for HTML output ----------------------------------------------
