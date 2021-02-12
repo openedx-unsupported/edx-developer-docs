@@ -47,6 +47,14 @@ Koa
      - Release Date
      - Git Tag
 
+   * - Koa.2a
+     - 2021-02-10
+     - open-release/koa.2a
+
+   * - Koa.2
+     - 2021-02-09
+     - open-release/koa.2
+
    * - Koa.1
      - 2020-12-09
      - open-release/koa.1
