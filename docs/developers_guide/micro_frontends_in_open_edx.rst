@@ -1,6 +1,6 @@
-##################################
-Micro-frontend applications (MFEs)
-##################################
+#######################################
+Micro-frontend applications in Open edX
+#######################################
 
 The purpose of this document is to provide an overview of how micro-frontend applications (MFEs) are developed, configured, and deployed with the Open edX ecosystem. Open edX MFEs are small React applications that can be built and deployed independently.
 
