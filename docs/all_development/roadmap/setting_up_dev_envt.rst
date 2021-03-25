@@ -7,7 +7,6 @@ You can locally develop Open edX code using two methods: `Devstack`_ and `Tutor`
 
 See `Devstack Getting Started`_ for more info on how to setup Devstack as your development environment.
 
-
 See `Tutor Getting Started`_ for more info on how to setup Tutor as your development environment.
 
 .. _Devstack: https://github.com/edx/devstack
