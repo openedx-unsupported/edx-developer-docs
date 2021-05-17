@@ -26,7 +26,7 @@ Production build example::
 
   SITE_NAME="My Site Name" npm run build
 
-The above would only set the SITE_NAME - suitable values for the environment variables should be supplied as well.
+The above would only set the SITE_NAME - suitable values for all the other environment variables should be supplied as well.
 
 Required Environment Variables
 ==============================
@@ -44,7 +44,7 @@ Fundamentals
 ``NODE_ENV``
   Example: ``production`` | ``development`` | ``test``
 
-  Used by both the build process and application to determine what type of environment we're running. Valid values are "development", "test", and "production". All production-like environments should use "production", as this removes development warnings and checks, and can enable code optimizations for many dependencies like React.
+  Used by both the build process and application to determine what type of environment we're running. Valid values are "development", "test", and "production". All production-like environments should use "production", as this removes development warnings and checks, and can enable code optimizations for many dependencies like React. "development" is used by local development servers (i.e., webpack-dev-server, loaded with ``npm start``), and "test" is used by MFE test suites (such as `jest <https://jestjs.io/>`_) run with ``npm run test``.
 
 ``PUBLIC_PATH``
   Example: ``/``
@@ -53,7 +53,7 @@ Fundamentals
 ``BASE_URL``
   Example: ``https://new-mfe.example.com``
 
-  The fully-qualified URL to the micro-frontend being built. Used by frontend-platform as part of authentication, as well as by many applications for internal links.
+  The fully-qualified URL to the micro-frontend being built. Used by frontend-platform as part of authentication, as well as by many applications for internal links.  The above example is a sub-domain, but micro-frontends can be configured with paths on an existing sub-domain as well.
 
 Internationalization
 --------------------
@@ -69,7 +69,7 @@ Service URLs
 ``CREDENTIALS_BASE_URL``
   Example: ``https://credentials.example.com``
 
-  The fully-qualified URL to the credentials service in the target environment.
+  The fully-qualified URL of the `Credentials Service <https://github.com/edx/credentials>`_ in the target environment.
 
 ``DISCOVERY_API_BASE_URL``
   Example: ``https://discovery.example.com``
@@ -78,8 +78,9 @@ Service URLs
 
 ``PUBLISHER_BASE_URL``
   Example: ``https://publisher.example.com``
+  Status: DEPRECATED
 
-  The fully-qualified URL of the `Publisher Micro-frontend <https://github.com/edx/frontend-app-publisher>`_.  Today this is only used by micro-frontends that are not offically supported in any Open edX release, such as the `Support Tools Micro-frontend <https://github.com/edx/frontend-app-support-tools>`_.  **As such, this should be considered deprecated and will be removed from a future release until such time as publisher itself is included.**
+  **This should be considered deprecated and will be removed from a future release until such time as publisher itself is included in an Open edX release.** The fully-qualified URL of the `Publisher Micro-frontend <https://github.com/edx/frontend-app-publisher>`_.  Today this is only used by micro-frontends that are not offically supported in any Open edX release, such as the `Support Tools Micro-frontend <https://github.com/edx/frontend-app-support-tools>`_.
 
 ``ECOMMERCE_BASE_URL``
   ``Example: https://ecommerce.example.com``
@@ -108,13 +109,14 @@ Service URLs
 
 ``MARKETING_SITE_BASE_URL``
   Example: ``https://www.example.com``
+  Status: DEPRECATED
 
-  The fully-qualified URL of the environment's marketing site.  Today this is used by frontend-app-account to link to a demographics collection page, and also as a base URL for optimizely experiment scripts.  **This is deprecated, and will be removed in a future release.** Use cases in frontend-app-account will be refactored to use different environment variables, since neither use case has anything to do with marketing.
+  **This is required, but will be removed in a future release.  Do not use in new code.** The fully-qualified URL of the environment's marketing site.  Today this is used by frontend-app-account to link to a demographics collection page, and also as a base URL for optimizely experiment scripts. Use cases in frontend-app-account will be refactored to use different environment variables, since neither use case has anything to do with marketing.
 
 ``ORDER_HISTORY_URL``
   Example: ``https://orders.example.com``
 
-  The fully-qualified URL to the Order History page.  This is often used in a user menu in the header of micro-frontends.
+  The fully-qualified URL to the `Order History page <https://github.com/edx/frontend-app-ecommerce>`_.  This is often used in a user menu in the header of micro-frontends.
 
 Analytics
 ---------
@@ -163,7 +165,7 @@ Branding
 ``LOGO_TRADEMARK_URL``
   Example: ``https://edx-cdn.org/v3/default/logo-trademark.svg``
 
-  The fully-qualified URL of the site's logo with a trademark in the image suitable for use in a footer.
+  The fully-qualified URL of the site's logo suitable for use in a footer. This is often a logo with a trademark such as (R) or (TM).
 
 ``LOGO_WHITE_URL``
   Example: ``https://edx-cdn.org/v3/default/logo-white.svg``
