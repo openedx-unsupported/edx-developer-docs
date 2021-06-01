@@ -1,5 +1,5 @@
 # Additional requirements for development of this application
 
 -r pip-tools.txt          # pip-tools and its dependencies, for managing requirements files
--r travis.txt             # tox and related dependencies
+-r ci.txt                 # tox and related dependencies
 -r doc.txt                # documentation related dependencies

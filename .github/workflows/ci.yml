@@ -1,0 +1,22 @@
+---
+name: validate changes
+on:
+  pull_request:
+  push:
+    branches:
+    - master
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        python-version:
+        - '3.8'
+    steps:
+    - uses: actions/checkout@v2
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - run: pip install -r requirements/ci.txt
+    - run: make test-all

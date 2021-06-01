@@ -27,10 +27,10 @@ six==1.15.0
 toml==0.10.2
     # via tox
 tox-battery==0.6.1
-    # via -r requirements/travis.in
+    # via -r requirements/ci.in
 tox==3.21.4
     # via
-    #   -r requirements/travis.in
+    #   -r requirements/ci.in
     #   tox-battery
 virtualenv==20.4.2
     # via tox
