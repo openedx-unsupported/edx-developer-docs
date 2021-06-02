@@ -46,7 +46,7 @@ upgrade: ## update the requirements/*.txt files with the latest packages satisfy
 	$(PIP_COMPILE) -o requirements/base.txt requirements/base.in
 	$(PIP_COMPILE) -o requirements/test.txt requirements/test.in
 	$(PIP_COMPILE) -o requirements/doc.txt requirements/doc.in
-	$(PIP_COMPILE) -o requirements/travis.txt requirements/travis.in
+	$(PIP_COMPILE) -o requirements/ci.txt requirements/ci.in
 	$(PIP_COMPILE) -o requirements/dev.txt requirements/dev.in
 
 requirements: ## install development environment requirements

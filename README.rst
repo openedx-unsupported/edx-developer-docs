@@ -1,7 +1,7 @@
 edx-developer-docs
 =============================
 
-|travis-badge| |doc-badge| |license-badge|
+|ci-badge| |doc-badge| |license-badge|
 
 Overview
 --------
@@ -82,10 +82,9 @@ refer to this `list of resources`_ if you need any assistance.
 
 .. _list of resources: https://open.edx.org/getting-help
 
-
-.. |travis-badge| image:: https://travis-ci.com/edx/edx-developer-docs.svg?branch=master
-    :target: https://travis-ci.com/edx/edx-developer-docs
-    :alt: Travis
+.. |ci-badge| image:: https://github.com/edx/edx-developer-docs/actions/workflows/test.yml/badge.svg)
+    :target: https://github.com/edx/edx-developer-docs/actions/workflows/test.yml
+    :alt: Continuous Integration
 
 .. |doc-badge| image:: https://readthedocs.org/projects/edx-developer-docs/badge/?version=latest
     :target: http://edx-developer-docs.readthedocs.io/en/latest/
