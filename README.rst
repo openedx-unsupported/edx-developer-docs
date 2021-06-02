@@ -82,8 +82,8 @@ refer to this `list of resources`_ if you need any assistance.
 
 .. _list of resources: https://open.edx.org/getting-help
 
-.. |ci-badge| image:: https://github.com/edx/edx-developer-docs/actions/workflows/test.yml/badge.svg)
-    :target: https://github.com/edx/edx-developer-docs/actions/workflows/test.yml
+.. |ci-badge| image:: https://github.com/edx/edx-developer-docs/actions/workflows/ci.yml/badge.svg
+    :target: https://github.com/edx/edx-developer-docs/actions/workflows/ci.yml
     :alt: Continuous Integration
 
 .. |doc-badge| image:: https://readthedocs.org/projects/edx-developer-docs/badge/?version=latest
