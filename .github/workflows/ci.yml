@@ -1,5 +1,5 @@
 ---
-name: validate changes
+name: ci
 on:
   pull_request:
   push:
