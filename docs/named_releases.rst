@@ -10,11 +10,11 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 -----------------------
 
-The latest supported release line is Koa_, based on code from 2020-11-12.
+The latest supported release line is Lilac_, based on code from 2021-04-09.
 
-The next release will be Lilac__.
+The next release will be Maple__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/2023915819/Lilac
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/2603816700/Maple
 
 
 All Open edX Releases
@@ -33,11 +33,29 @@ Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
 
+Lilac
+~~~~~
+
+* **Code cut date:** 2021-04-09
+* **Status:** supported
+* :doc:`Release Notes <openreleasenotes:lilac>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Lilac.1
+     - 2021-06-09
+     - open-release/lilac.1
+
 Koa
 ~~~
 
 * **Code cut date:** 2020-11-12
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <openreleasenotes:koa>`
 
 .. list-table::
