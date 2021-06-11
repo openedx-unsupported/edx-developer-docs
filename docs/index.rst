@@ -42,6 +42,10 @@ Open edX Development
 
 .. list-table::
 
+   * - `Devstack <https://edx.readthedocs.io/projects/open-edx-devstack/en/latest>`_
+     - The local development environment for developing in the Open edX
+       platform.
+
    * - `Open edX Named Releases <named_releases.html>`_
      - Information on each stable Open edX named release.
 
