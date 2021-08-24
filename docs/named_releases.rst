@@ -47,6 +47,10 @@ Lilac
      - Release Date
      - Git Tag
 
+   * - Lilac.2
+     - 2021-08-09
+     - open-release/lilac.2
+
    * - Lilac.1
      - 2021-06-09
      - open-release/lilac.1
