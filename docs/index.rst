@@ -31,7 +31,7 @@ Architecture and Best Practices
    * - `Architecture and Engineering Confluence page <https://openedx.atlassian.net/wiki/spaces/AC/overview>`_
      - Confluence page for notes, thoughts, and project-related documents on Open edX architecture and engineering.
 
-   * - `Open edX Micro-frontend Developer's Guide <micro_frontends/index.html>`_
+   * - :doc:`micro_frontends/index`
      - General guidelines for developing micro-frontends in the Open edX platform.
 
    * - `(Legacy) Open edX Developer's Guide <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/>`_
