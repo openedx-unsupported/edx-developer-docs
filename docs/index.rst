@@ -13,6 +13,7 @@ resources targeted for edX learners, educators, researchers, and Open edX operat
     named_releases
     Open edX Extensions and APIs <https://open.edx.org/extending-edx>
     (Legacy) Open edX Developer's Guide <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/>
+    developers_guide/micro_frontends_in_open_edx
 
 
 Architecture and Best Practices
