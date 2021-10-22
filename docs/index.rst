@@ -2,8 +2,9 @@
 Developer Documentation
 #######################
 
-This the landing page for documentation relevant to developers of the Open edX platform.  For other documentation
-resources targeted for edX learners, educators, researchers, and Open edX operators, see `docs.edx.org <docs.edx.org>`_.
+.. note::
+    This the landing page for documentation relevant to developers of the Open edX platform.  For other documentation
+    resources targeted for edX learners, educators, researchers, and Open edX operators, see `docs.edx.org <docs.edx.org>`_.
 
 .. toctree::
     :hidden:
@@ -16,8 +17,91 @@ resources targeted for edX learners, educators, researchers, and Open edX operat
     developers_guide/micro_frontends_in_open_edx
 
 
+Welcome contributors! There are many ways of contributing to the code and the goal of this documentation is to help you with just that!
+
+Ways to Contribute
+##################
+
+There are many different ways to contribute to the platform.
+
+Translations
+============
+
+To be a useful platform for everyone everywhere, translations are critical. If you have knowledge or expertise in languages other than English, we could use your help to translate the platform to other languages.
+
+Getting Started with Translating.(Link)
+
+Documentation
+=============
+
+...Some words… link to where the big todo list is.
+
+Bug Fixes
+=========
+Have you been using or operating the platform and found a bug you want to fix? We would love your help!
+
+A Few things you need to know:
+
+* `The contribution process.`_
+* `How to setup a development environment.`_
+* How the code is laid out.(Link)
+* `How to ask for help.`_
+
+.. _The contribution process.: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/process/overview.html
+.. _How to setup a development environment.: https://edx.readthedocs.io/projects/open-edx-devstack/en/latest/readme.html
+.. _The contribution process.: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/process/overview.html
+.. _Devstack: https://edx.readthedocs.io/projects/open-edx-devstack/en/latest/readme.html#getting-started
+.. _How to ask for help.: https://open.edx.org/community/connect/
+
+New Features
+============
+
+Got a great idea for how to improve the platform? The more the merrier! The Open edX platform can be added to in many different ways. Take a look at the options below and come talk to us if you're not sure which one is the best for you.
+
+Ways of Adding new Features to the Open edX Platform
+----------------------------------------------------
+
+New XBlock
+^^^^^^^^^^
+
+XBlocks build on top of a well defined interface in the Open edX platform and do not require review from the Open edX team.
+If you want to add a new problem type or content presentation that would be shown to a learner as a part of a course, you probably want to build a new XBlock.
+
+Before you do that, check out XBlocks `that others have built`_ in case they fulfill your needs.
+
+If you're ready to build one, check out our `Intro to XBlocks`_
+
+.. _that others have built: https://openedx.atlassian.net/wiki/spaces/COMM/pages/43385346/XBlocks+Directory
+.. _Intro to XBlocks: https://openedx.atlassian.net/wiki/spaces/PLAT/pages/33358554/XBlocks
+
+New Plugin
+^^^^^^^^^^
+
+Plugins can be built independently of the core platform and do not require review from the Open edX team to build or use.
+If you want to add a new feature outside of courseware (learner/educator/operator experience) a new platform plugin might be a great option for you.
+
+Check out our Intro to Plugins(link) to get started.
+
+New update to the core platform
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If we don't have extension points for the kind of change you want to make, you might need to make a change to the core source.
+This can be complex and we encourage you to `reach out to us`_ to talk about the kind of changes you want to make.
+
+Other useful things you need to know:
+
+* `The contribution process.`_
+* `How to setup a development environment.`_
+* How the code is laid out.(Link)
+* `How to ask for help.`_
+
+.. _reach out to us: https://open.edx.org/community/connect/
+
+Other General Docs
+##################
+
 Architecture and Best Practices
--------------------------------
+===============================
 
 .. list-table::
 
@@ -39,11 +123,11 @@ Architecture and Best Practices
      - General guidelines for developing on various parts of the Open edX code base.
 
 Open edX Development
---------------------
+====================
 
 .. list-table::
 
-   * - `Devstack <https://edx.readthedocs.io/projects/open-edx-devstack/en/latest>`_
+   * - `Devstack`_
      - The local development environment for developing in the Open edX
        platform.
 
@@ -52,3 +136,5 @@ Open edX Development
 
    * - `Open edX Extensions and APIs <https://open.edx.org/extending-edx>`_
      - Landing page for supported APIs and extensions to the Open edX platform.
+
+.. _Devstack: https://edx.readthedocs.io/projects/open-edx-devstack/en/latest/readme.html#getting-started
