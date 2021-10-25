@@ -103,7 +103,7 @@ pygments==2.10.0
     #   doc8
     #   readme-renderer
     #   sphinx
-pyparsing==2.4.7
+pyparsing==3.0.1
     # via
     #   -r requirements/ci.txt
     #   -r requirements/doc.txt
@@ -184,7 +184,7 @@ urllib3==1.26.7
     # via
     #   -r requirements/doc.txt
     #   requests
-virtualenv==20.8.1
+virtualenv==20.9.0
     # via
     #   -r requirements/ci.txt
     #   tox
