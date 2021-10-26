@@ -5,8 +5,5 @@
 **Merge checklist:**
 - [ ] All reviewers approved
 - [ ] CI build is green
-- [ ] Commits are squashed
-
-**Post merge:**
-- [ ] Delete working branch (if not needed anymore)
-- [ ] Test changes published to Read the Docs appear as expected
+- [ ] Commits are squashed as needed
+- [ ] Review Read the Docs PR build to ensure changes appear as expected
