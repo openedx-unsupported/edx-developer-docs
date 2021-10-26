@@ -3,7 +3,7 @@ Developer Documentation
 #######################
 
 .. note::
-    This the landing page for documentation relevant to developers of the Open edX platform.  For other documentation
+    This is the landing page for documentation relevant to developers of the Open edX platform.  For other documentation
     resources targeted for edX learners, educators, researchers, and Open edX operators, see `docs.edx.org <docs.edx.org>`_.
 
 .. toctree::
@@ -38,7 +38,7 @@ Documentation
 
 Bug Fixes
 =========
-Have you been using or operating the platform and found a bug you want to fix? We would love your help!
+Have you been using or operating or using an Open edX site and found a bug you want to fix? We would love your help!
 
 A Few things you need to know:
 
