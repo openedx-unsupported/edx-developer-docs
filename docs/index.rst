@@ -31,7 +31,7 @@ To be a useful platform for everyone everywhere, translations are critical. If y
 
 `Getting Started with Translating.`_
 
-.. _Getting Started with Translating: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/internationalization/i18n_translators_guide.html
+.. _Getting Started with Translating.: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/internationalization/i18n_translators_guide.html
 
 ..
     Put this back in when we have more information to put here.
