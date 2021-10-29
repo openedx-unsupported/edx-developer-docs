@@ -44,7 +44,7 @@ Bug Fixes
 =========
 Have you been using or operating or using an Open edX site and found a bug you want to fix? We would love your help!
 
-A Few things you need to know:
+A few things you need to know:
 
 * `The contribution process.`_
 * `How to setup a development environment.`_
@@ -69,7 +69,7 @@ Ways of Adding new Features to the Open edX Platform
 New XBlock
 ^^^^^^^^^^
 
-XBlocks build on top of a well defined interface in the Open edX platform and do not require review from the Open edX team.
+XBlocks build on top of a well-defined interface in the Open edX platform and do not require review from the Open edX team.
 If you want to add a new problem type or content presentation that would be shown to a learner as a part of a course, you probably want to build a new XBlock.
 
 Before you do that, check out XBlocks `that others have built`_ in case they fulfill your needs.
@@ -85,7 +85,7 @@ New Plugin
 Plugins can be built independently of the core platform and do not require review from the Open edX team to build or use.
 If you want to add a new feature outside of courseware (learner/educator/operator experience) a new platform plugin might be a great option for you.
 
-Check out `this adr <https://github.com/edx/edx-django-utils/blob/master/edx_django_utils/plugins/docs/decisions/0001-plugin-contexts.rst>`_ to get started.
+Check out `this overview of our Django plugin design <https://github.com/edx/edx-django-utils/blob/master/edx_django_utils/plugins/docs/decisions/0001-plugin-contexts.rst>`_ to get started.
 
 New update to the core platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
