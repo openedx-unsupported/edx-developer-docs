@@ -29,12 +29,16 @@ Translations
 
 To be a useful platform for everyone everywhere, translations are critical. If you have knowledge or expertise in languages other than English, we could use your help to translate the platform to other languages.
 
-Getting Started with Translating.(Link)
+`Getting Started with Translating.`_
 
-Documentation
-=============
+.. _Getting Started with Translating: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/internationalization/i18n_translators_guide.html
 
-...Some words… link to where the big todo list is.
+..
+    Put this back in when we have more information to put here.
+    Documentation
+    =============
+
+    ...Some words… link to where the big todo list is.
 
 Bug Fixes
 =========
@@ -44,7 +48,7 @@ A Few things you need to know:
 
 * `The contribution process.`_
 * `How to setup a development environment.`_
-* How the code is laid out.(Link)
+* `How the code is laid out.`_
 * `How to ask for help.`_
 
 .. _The contribution process.: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/process/overview.html
@@ -52,6 +56,7 @@ A Few things you need to know:
 .. _The contribution process.: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/process/overview.html
 .. _Devstack: https://edx.readthedocs.io/projects/open-edx-devstack/en/latest/readme.html#getting-started
 .. _How to ask for help.: https://open.edx.org/community/connect/
+.. _How the code is laid out.: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/architecture.html
 
 New Features
 ============
@@ -92,7 +97,7 @@ Other useful things you need to know:
 
 * `The contribution process.`_
 * `How to setup a development environment.`_
-* How the code is laid out.(Link)
+* `How the code is laid out.`_
 * `How to ask for help.`_
 
 .. _reach out to us: https://open.edx.org/community/connect/
