@@ -47,7 +47,7 @@ docutils==0.17.1
     #   sphinx
 edx-sphinx-theme==3.0.0
     # via -r requirements/doc.txt
-filelock==3.3.1
+filelock==3.3.2
     # via
     #   -r requirements/ci.txt
     #   tox
@@ -68,7 +68,7 @@ markupsafe==2.0.1
     # via
     #   -r requirements/doc.txt
     #   jinja2
-packaging==21.0
+packaging==21.2
     # via
     #   -r requirements/ci.txt
     #   -r requirements/doc.txt
@@ -103,7 +103,7 @@ pygments==2.10.0
     #   doc8
     #   readme-renderer
     #   sphinx
-pyparsing==3.0.1
+pyparsing==2.4.7
     # via
     #   -r requirements/ci.txt
     #   -r requirements/doc.txt
@@ -170,7 +170,7 @@ toml==0.10.2
     # via
     #   -r requirements/ci.txt
     #   tox
-tomli==1.2.1
+tomli==1.2.2
     # via
     #   -r requirements/pip-tools.txt
     #   pep517
