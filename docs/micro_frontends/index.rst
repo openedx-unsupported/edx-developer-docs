@@ -95,6 +95,12 @@ Status: DEPRECATED
 
 The fully-qualified URL of the `Ecommerce Service <https://github.com/edx/ecommerce>`_ in the target environment.
 
+``LEARNING_BASE_URL``
+
+Example: ``https://learning.example.com``
+
+The fully-qualified URL of the `Frontend App Learning <https://github.com/edx/frontend-app-learning>`_ in the target environment.
+
 ``LMS_BASE_URL``
 
 Example: ``https://courses.example.com``
