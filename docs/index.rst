@@ -16,6 +16,12 @@ Developer Documentation
     (Legacy) Open edX Developer's Guide <https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/>
     developers_guide/micro_frontends_in_open_edx
 
+Getting Started
+###############
+In a hurry to start writing code? Go setup our `Devstack`_
+
+New Contributors
+################
 
 Welcome contributors! There are many ways of contributing to the code and the goal of this documentation is to help you with just that!
 
