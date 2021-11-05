@@ -18,7 +18,7 @@ Developer Documentation
 
 Getting Started
 ###############
-In a hurry to start writing code? Go setup our `Devstack`_
+In a hurry to start writing code? Go set up `Devstack`_, our local Docker-based development environment.
 
 New Contributors
 ################
