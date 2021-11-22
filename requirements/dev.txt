@@ -47,7 +47,7 @@ docutils==0.17.1
     #   sphinx
 edx-sphinx-theme==3.0.0
     # via -r requirements/doc.txt
-filelock==3.3.2
+filelock==3.4.0
     # via
     #   -r requirements/ci.txt
     #   tox
@@ -68,14 +68,14 @@ markupsafe==2.0.1
     # via
     #   -r requirements/doc.txt
     #   jinja2
-packaging==21.2
+packaging==21.3
     # via
     #   -r requirements/ci.txt
     #   -r requirements/doc.txt
     #   bleach
     #   sphinx
     #   tox
-pbr==5.7.0
+pbr==5.8.0
     # via
     #   -r requirements/doc.txt
     #   stevedore
@@ -103,7 +103,7 @@ pygments==2.10.0
     #   doc8
     #   readme-renderer
     #   sphinx
-pyparsing==2.4.7
+pyparsing==3.0.6
     # via
     #   -r requirements/ci.txt
     #   -r requirements/doc.txt
@@ -130,7 +130,7 @@ six==1.16.0
     #   edx-sphinx-theme
     #   tox
     #   virtualenv
-snowballstemmer==2.1.0
+snowballstemmer==2.2.0
     # via
     #   -r requirements/doc.txt
     #   sphinx
