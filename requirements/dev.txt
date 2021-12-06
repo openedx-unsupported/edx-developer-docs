@@ -24,7 +24,7 @@ certifi==2021.10.8
     # via
     #   -r requirements/doc.txt
     #   requests
-charset-normalizer==2.0.7
+charset-normalizer==2.0.9
     # via
     #   -r requirements/doc.txt
     #   requests
@@ -134,7 +134,7 @@ snowballstemmer==2.2.0
     # via
     #   -r requirements/doc.txt
     #   sphinx
-sphinx==4.3.0
+sphinx==4.3.1
     # via
     #   -r requirements/doc.txt
     #   edx-sphinx-theme
