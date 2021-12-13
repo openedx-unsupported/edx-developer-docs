@@ -32,7 +32,7 @@ click==8.0.3
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-distlib==0.3.3
+distlib==0.3.4
     # via
     #   -r requirements/ci.txt
     #   virtualenv
@@ -112,7 +112,7 @@ pytz==2021.3
     # via
     #   -r requirements/doc.txt
     #   babel
-readme-renderer==30.0
+readme-renderer==31.0
     # via -r requirements/doc.txt
 requests==2.26.0
     # via
