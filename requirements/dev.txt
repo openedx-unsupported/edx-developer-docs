@@ -112,7 +112,7 @@ pytz==2021.3
     # via
     #   -r requirements/doc.txt
     #   babel
-readme-renderer==31.0
+readme-renderer==32.0
     # via -r requirements/doc.txt
 requests==2.26.0
     # via
@@ -134,7 +134,7 @@ snowballstemmer==2.2.0
     # via
     #   -r requirements/doc.txt
     #   sphinx
-sphinx==4.3.1
+sphinx==4.3.2
     # via
     #   -r requirements/doc.txt
     #   edx-sphinx-theme
@@ -170,7 +170,7 @@ toml==0.10.2
     # via
     #   -r requirements/ci.txt
     #   tox
-tomli==1.2.2
+tomli==2.0.0
     # via
     #   -r requirements/pip-tools.txt
     #   pep517
