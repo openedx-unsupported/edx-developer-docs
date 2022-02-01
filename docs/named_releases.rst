@@ -10,11 +10,11 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 -----------------------
 
-The latest supported release line is Lilac_, based on code from 2021-04-09.
+The latest supported release line is Maple_, based on code from 2021-08-09.
 
-The next release will be Maple__.
+The next release will be Nutmeg__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/2603816700/Maple
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3205201949/Nutmeg
 
 
 All Open edX Releases
@@ -32,12 +32,29 @@ Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes
 
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
+Maple
+~~~~~
+
+* **Code cut date:** 2021-08-09
+* **Status:** supported
+* :doc:`Release Notes <openreleasenotes:maple>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Maple.1
+     - 2021-12-20
+     - open-release/maple.1
 
 Lilac
 ~~~~~
 
 * **Code cut date:** 2021-04-09
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <openreleasenotes:lilac>`
 
 .. list-table::
