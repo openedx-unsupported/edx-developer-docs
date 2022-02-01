@@ -10,7 +10,7 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 -----------------------
 
-The latest supported release line is Maple_, based on code from 2021-08-09.
+The latest supported release line is Maple_, based on code from 2021-10-09.
 
 The next release will be Nutmeg__.
 
