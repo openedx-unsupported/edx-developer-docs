@@ -35,7 +35,7 @@ If an installation of a tag fails, try the corresponding release line master bra
 Maple
 ~~~~~
 
-* **Code cut date:** 2021-08-09
+* **Code cut date:** 2021-10-09
 * **Status:** supported
 * :doc:`Release Notes <openreleasenotes:maple>`
 
