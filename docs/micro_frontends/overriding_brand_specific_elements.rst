@@ -14,7 +14,7 @@ Example: for edx.org the Open edX @edx/frontend-component-header is overridden w
   npm install @edx/frontend-component-header@npm:@edx/frontend-component-header-edx@latest
 
   # git repository
-  npm install @edx/frontend-component-header@git:https://github.com/edx/frontend-component-header-edx.git
+  npm install @edx/frontend-component-header@git://github.com/edx/frontend-component-header-edx.git
 
   # local folder
   npm install @edx/frontend-component-header@file:../path/to/local/module

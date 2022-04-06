@@ -111,6 +111,9 @@ In your repo, create and commit a file named ``.tx/config``::
     source_lang = en
     type = KEYVALUEJSON
 
+.. note:: If you are building an application for your own usage, replace `edx-platform` with your Transifex
+          project name.
+
 *************************
 Set up the pipeline tools
 *************************
@@ -181,9 +184,9 @@ have to modify them. They will interact with your repo through ``make`` targets.
       API. There isn't a bulk call available, so it will be one API call per string. (...I know.) As of June 2019,
       the rate limit is 6000 calls per hour.
 
-      * Add ``reactifex`` to your dev dependencies::
+      * Add ``@edx/reactifex`` to your dev dependencies::
 
-          npm install reactifex --save-dev
+          npm install @edx/reactifex --save-dev
 
       * You can't test this one without Transifex credentials, so at this point it's probably easiest to just make
         your pipeline job and run that.
