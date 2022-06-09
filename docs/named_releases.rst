@@ -10,9 +10,9 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 -----------------------
 
-The latest supported release line is Maple_, based on code from 2021-10-15.
+The latest supported release line is Nutmeg_, based on code from 2022-04-12.
 
-The next release will be Nutmeg__.
+The next release will be Olive__.
 
 __ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3205201949/Nutmeg
 
@@ -28,9 +28,27 @@ Note that the latest release is the only supported release. We currently do not 
 
 For documentation on the latest release, please visit the :doc:`openreleasenotes:index`.
 
-Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes destined for that release (``open-release/ginkgo.master``, ``open-release/hawthorn.master``, etc).  Periodically, we tag that branch (``open-release/hawthorn.1``, ``open-release/hawthorn.2``, etc).  After a few releases, we might still add important fixes to the branch, but not make a new tagged release.  At that point, someone installing that line will want to install from the branch, not the tags.
+Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes destined for that release (``open-release/ginkgo.master``, ``open-release/hawthorn.master``, etc). Periodically, we tag that branch (``open-release/hawthorn.1``, ``open-release/hawthorn.2``, etc). After a few releases, we might still add important fixes to the branch, but not make a new tagged release. At that point, someone installing that line will want to install from the branch, not the tags.
 
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
+
+Nutmeg
+~~~~~~
+
+* **Code cut date:** 2022-04-12
+* **Status:** supported
+* :doc:`Release Notes <openreleasenotes:nutmeg>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Nutmeg.1
+     - 2022-06-09
+     - open-release/nutmeg.1
 
 Maple
 ~~~~~
