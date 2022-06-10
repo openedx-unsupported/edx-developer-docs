@@ -54,7 +54,7 @@ Maple
 ~~~~~
 
 * **Code cut date:** 2021-10-15
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <openreleasenotes:maple>`
 
 .. list-table::
