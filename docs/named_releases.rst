@@ -14,7 +14,7 @@ The latest supported release line is Nutmeg_, based on code from 2022-04-12.
 
 The next release will be Olive__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3205201949/Nutmeg
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3396501578/Olive
 
 
 All Open edX Releases
