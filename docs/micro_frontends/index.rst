@@ -74,32 +74,32 @@ Service URLs
 
 Example: ``https://credentials.example.com``
 
-The fully-qualified URL of the `Credentials Service <https://github.com/edx/credentials>`_ in the target environment.
+The fully-qualified URL of the `Credentials Service <https://github.com/openedx/credentials>`_ in the target environment.
 
 ``DISCOVERY_API_BASE_URL``
 
 Example: ``https://discovery.example.com``
 
-The fully-qualified URL of the `Course Discovery Service <https://github.com/edx/course-discovery>`_ for the target environment.
+The fully-qualified URL of the `Course Discovery Service <https://github.com/openedx/course-discovery>`_ for the target environment.
 
 ``PUBLISHER_BASE_URL``
 
 Example: ``https://publisher.example.com``
 Status: DEPRECATED
 
-**This should be considered deprecated and will be removed from a future release until such time as publisher itself is included in an Open edX release.** The fully-qualified URL of the `Publisher Micro-frontend <https://github.com/edx/frontend-app-publisher>`_.  Today this is only used by micro-frontends that are not offically supported in any Open edX release, such as the `Support Tools Micro-frontend <https://github.com/edx/frontend-app-support-tools>`_.
+**This should be considered deprecated and will be removed from a future release until such time as publisher itself is included in an Open edX release.** The fully-qualified URL of the `Publisher Micro-frontend <https://github.com/openedx/frontend-app-publisher>`_.  Today this is only used by micro-frontends that are not offically supported in any Open edX release, such as the `Support Tools Micro-frontend <https://github.com/openedx/frontend-app-support-tools>`_.
 
 ``ECOMMERCE_BASE_URL``
 
 ``Example: https://ecommerce.example.com``
 
-The fully-qualified URL of the `Ecommerce Service <https://github.com/edx/ecommerce>`_ in the target environment.
+The fully-qualified URL of the `Ecommerce Service <https://github.com/openedx/ecommerce>`_ in the target environment.
 
 ``LEARNING_BASE_URL``
 
 Example: ``https://learning.example.com``
 
-The fully-qualified URL of the `Frontend App Learning <https://github.com/edx/frontend-app-learning>`_ in the target environment.
+The fully-qualified URL of the `Frontend App Learning <https://github.com/openedx/frontend-app-learning>`_ in the target environment.
 
 ``LMS_BASE_URL``
 
@@ -123,7 +123,7 @@ The fully-qualified URL to the API endpoint in the target environment which perf
 
 Example: ``https://studio.example.com``
 
-The fully-qualified URL of Studio in the target environment. This is often used by micro-frontends from which educators may wish to go edit course content, such as `frontend-app-learning <https://github.com/edx/frontend-app-learning>`_
+The fully-qualified URL of Studio in the target environment. This is often used by micro-frontends from which educators may wish to go edit course content, such as `frontend-app-learning <https://github.com/openedx/frontend-app-learning>`_
 
 ``MARKETING_SITE_BASE_URL``
 
@@ -136,7 +136,7 @@ Status: DEPRECATED
 
 Example: ``https://orders.example.com``
 
-The fully-qualified URL to the `Order History page <https://github.com/edx/frontend-app-ecommerce>`_.  This is often used in a user menu in the header of micro-frontends.
+The fully-qualified URL to the `Order History page <https://github.com/openedx/frontend-app-ecommerce>`_.  This is often used in a user menu in the header of micro-frontends.
 
 Analytics
 ---------
@@ -223,12 +223,12 @@ Example: for edx.org the Open edX @edx/frontend-component-header is overridden w
   npm install @edx/frontend-component-header@npm:@edx/frontend-component-header-edx@latest
 
   # git repository
-  npm install @edx/frontend-component-header@git:https://github.com/edx/frontend-component-header-edx.git
+  npm install @edx/frontend-component-header@git:https://github.com/openedx/frontend-component-header-edx.git
 
   # local folder
   npm install @edx/frontend-component-header@file:../path/to/local/module
 
-A list overridable packages is being developed. Currently only `@edx/frontend-component-header <https://github.com/edx/frontend-component-header>`_ and `@edx/frontend-component-footer <https://github.com/edx/frontend-component-footer>`_ are designed to be overridden. See those repositories for the interfaces they expose.
+A list overridable packages is being developed. Currently only `@edx/frontend-component-header <https://github.com/openedx/frontend-component-header>`_ and `@edx/frontend-component-footer <https://github.com/openedx/frontend-component-footer>`_ are designed to be overridden. See those repositories for the interfaces they expose.
 
 **********
 Deployment
@@ -244,7 +244,7 @@ The basic deployment strategy:
 
 Note: The following is edX-specific and depends upon automation set up in GoCD. A similar, more manual process will need to be defined for Open edX installations.
 
-edX MFEs are deployed automatically upon updates to the master branch in Github. GoCD collects three materials: the MFE source code, .yml configuration, and pipeline scripts (`edX tubular <https://github.com/edx/tubular>`_).
+edX MFEs are deployed automatically upon updates to the master branch in Github. GoCD collects three materials: the MFE source code, .yml configuration, and pipeline scripts (`edX tubular <https://github.com/openedx/tubular>`_).
 
 .yml configuration contains:
 
@@ -254,9 +254,9 @@ edX MFEs are deployed automatically upon updates to the master branch in Github.
 
 Relevant pipeline scripts (edX tubular):
 
-- https://github.com/edx/tubular/blob/master/tubular/scripts/frontend_utils.py
-- https://github.com/edx/tubular/blob/master/tubular/scripts/frontend_build.py
-- https://github.com/edx/tubular/blob/master/tubular/scripts/frontend_deploy.py
+- https://github.com/openedx/tubular/blob/master/tubular/scripts/frontend_utils.py
+- https://github.com/openedx/tubular/blob/master/tubular/scripts/frontend_build.py
+- https://github.com/openedx/tubular/blob/master/tubular/scripts/frontend_deploy.py
 
 The pipeline scripts perform a routine like below:
 
