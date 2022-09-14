@@ -61,13 +61,13 @@ How To Contribute
 
 Contributions are very welcome.
 
-Please read `How To Contribute <https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst>`_ for details.
+Please read `How To Contribute <https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst>`_ for details.
 
 Even though they were written with ``edx-platform`` in mind, the guidelines
 should be followed for Open edX code in general.
 
 PR description template should be automatically applied if you are sending PR from github interface; otherwise you
-can find it it at `PULL_REQUEST_TEMPLATE.md <https://github.com/edx/edx-developer-docs/blob/master/.github/PULL_REQUEST_TEMPLATE.md>`_
+can find it it at `PULL_REQUEST_TEMPLATE.md <https://github.com/openedx/edx-developer-docs/blob/master/.github/PULL_REQUEST_TEMPLATE.md>`_
 
 Reporting Security Issues
 -------------------------
@@ -82,8 +82,8 @@ refer to this `list of resources`_ if you need any assistance.
 
 .. _list of resources: https://open.edx.org/getting-help
 
-.. |ci-badge| image:: https://github.com/edx/edx-developer-docs/actions/workflows/ci.yml/badge.svg
-    :target: https://github.com/edx/edx-developer-docs/actions/workflows/ci.yml
+.. |ci-badge| image:: https://github.com/openedx/edx-developer-docs/actions/workflows/ci.yml/badge.svg
+    :target: https://github.com/openedx/edx-developer-docs/actions/workflows/ci.yml
     :alt: Continuous Integration
 
 .. |doc-badge| image:: https://readthedocs.org/projects/edx-developer-docs/badge/?version=latest
@@ -91,5 +91,5 @@ refer to this `list of resources`_ if you need any assistance.
     :alt: Documentation
 
 .. |license-badge| image:: https://img.shields.io/github/license/edx/edx-developer-docs.svg
-    :target: https://github.com/edx/edx-developer-docs/blob/master/LICENSE.txt
+    :target: https://github.com/openedx/edx-developer-docs/blob/master/LICENSE.txt
     :alt: License
