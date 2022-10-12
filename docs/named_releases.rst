@@ -50,6 +50,14 @@ Nutmeg
      - 2022-06-09
      - open-release/nutmeg.1
 
+   * - Nutmeg.2
+     - 2022-08-08
+     - open-release/nutmeg.2
+
+   * - Nutmeg.3
+     - 2022-10-11
+     - open-release/nutmeg.3
+
 Maple
 ~~~~~
 
