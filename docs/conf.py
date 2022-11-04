@@ -44,7 +44,11 @@ extensions = [
     'sphinx_reredirects',
 ]
 
-redirects = {}
+redirects = {
+    "micro_frontends/index": "https://openedx.github.io/frontend-platform/",
+    "named_releases": "https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/index.html",
+    "developers_guide/micro_frontends_in_open_edx": "https://openedx.github.io/frontend-platform/",
+}
 
 # A list of warning types to suppress arbitrary warning messages.
 suppress_warnings = [
