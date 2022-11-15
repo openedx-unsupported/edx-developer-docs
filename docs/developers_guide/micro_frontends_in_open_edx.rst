@@ -1,4 +1,4 @@
 Micro Frontends in Open edX
 ===========================
 
-This content has permanently moved to :doc:`../micro_frontends/index`.
+.. Replaced with a redirect, see conf.py redirect dict.
