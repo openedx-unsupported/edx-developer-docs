@@ -3,8 +3,7 @@ edx-developer-docs
 
 |ci-badge| |doc-badge| |license-badge|
 
-**WARNING: The edx-developer-docs repo is deprecated and will be archived after
-Jan 1, 2023**
+**WARNING: This repository is Archived.**
 
 For more up-to-date documentation see: https://docs.openedx.org/en/latest/developers
 
