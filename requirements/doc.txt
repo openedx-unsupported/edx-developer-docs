@@ -15,7 +15,7 @@ certifi==2022.9.24
 charset-normalizer==2.1.1
     # via requests
 doc8==1.0.0
-    # via -r requirements/doc.in
+    # via -r doc.in
 docutils==0.19
     # via
     #   doc8
@@ -23,12 +23,10 @@ docutils==0.19
     #   restructuredtext-lint
     #   sphinx
 edx-sphinx-theme==3.0.0
-    # via -r requirements/doc.in
+    # via -r doc.in
 idna==3.4
     # via requests
 imagesize==1.4.1
-    # via sphinx
-importlib-metadata==5.0.0
     # via sphinx
 jinja2==3.1.2
     # via sphinx
@@ -48,8 +46,8 @@ pyparsing==3.0.9
 pytz==2022.6
     # via babel
 readme-renderer==37.3
-    # via -r requirements/doc.in
-requests==2.28.1
+    # via -r doc.in
+requests==2.31.0
     # via sphinx
 restructuredtext-lint==1.4.0
     # via doc8
@@ -61,11 +59,11 @@ snowballstemmer==2.2.0
     # via sphinx
 sphinx==5.3.0
     # via
-    #   -r requirements/doc.in
+    #   -r doc.in
     #   edx-sphinx-theme
     #   sphinx-reredirects
 sphinx-reredirects==0.1.1
-    # via -r requirements/doc.in
+    # via -r doc.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
@@ -80,11 +78,7 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 stevedore==4.1.0
     # via doc8
-tomli==2.0.1
-    # via doc8
 urllib3==1.26.12
     # via requests
 webencodings==0.5.1
     # via bleach
-zipp==3.10.0
-    # via importlib-metadata
